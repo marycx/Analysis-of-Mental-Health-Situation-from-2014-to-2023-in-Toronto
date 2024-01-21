@@ -51,6 +51,11 @@ mental_health_data_cleaned <-
 mental_health_data_cleaned <- 
   mental_health_data_cleaned %>%
   filter(age_group != "Not Recorded" & sex != "Not Recorded" & premises_type != "Not Recorded")
+
+# Get rid of entries in 2002, 2010, 2012, and 2013, because they all have a very low number of data compared to other years, which is not helpful for my analysis.
+mental_health_data_cleaned <- 
+  mental_health_data_cleaned %>%
+  filter(occurred_year != "2002" & occurred_year != "2010" & occurred_year != "2012" & occurred_year != "2013")
 ```
 
 ```{r}
