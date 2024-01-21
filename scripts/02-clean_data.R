@@ -7,9 +7,6 @@ date: 20 January 2023
 
 ```{r}
 # workspace setup; first install then load
-install.packages("tidyverse")
-install.packages("dplyr")
-install.packages("janitor")
 library(tidyverse)
 library(dplyr)
 library(janitor)
@@ -47,6 +44,13 @@ mental_health_data_cleaned <-
     age_group = age_cohort,
     premises_type = premises_type
   )
+```
+
+```{r}
+# Get rid of rows with empty values, here empty values are recorded as "Not Recorded"
+mental_health_data_cleaned <- 
+  mental_health_data_cleaned %>%
+  filter(age_group != "Not Recorded" & sex != "Not Recorded" & premises_type != "Not Recorded")
 ```
 
 ```{r}
