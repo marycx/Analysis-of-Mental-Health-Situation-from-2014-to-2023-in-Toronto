@@ -1,5 +1,5 @@
 ---
-Purpose: Download and clean mental health apprehension data from opendatatoronto 
+Purpose: Download mental health apprehension data from opendatatoronto 
 author: Mary Cheng
 Date: 19 January 2024
 Contact: maryc.cheng@mail.utoronto.ca
@@ -28,6 +28,11 @@ datastore_resources <- filter(resources, tolower(format) %in% c('csv', 'geojson'
 mental_health_data <- filter(datastore_resources, row_number()==1) %>% get_resource()
 	
 mental_health_data
+```
+
+```{r}
+# Since this csv file is too huge, I can only include 32000 entries in the csv file. Therefore, I decide to do some basic selection here regarding the years. I am going to select 2012 - 2016 to analyze.
+mental_health_data <- mental_health_data %>% filter(OCC_YEAR == "2015" | OCC_YEAR == "2016" | OCC_YEAR == "2017")
 ```
 
 ```{r}
