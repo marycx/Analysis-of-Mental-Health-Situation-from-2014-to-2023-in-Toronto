@@ -1,0 +1,30 @@
+---
+title: "Data Analysis of Mental Health Situation from 2014 to 2023 in Toronto"
+title-block-banner: true
+author: "Mary Cheng"
+thanks: "Code and data are avaliable at:https://github.com/marycx/Analysis-of-Mental-Health-Situation-from-2014-to-2023-in-Toronto.git"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+abstract: "something here"
+format: pdf
+toc: true
+number-sections: true
+---
+
+```{r}
+#| message: false
+#| echo: false
+
+#### Workspace set-up ####
+install.packages("tidyverse")
+install.packages("knitr")
+install.packages("kableExtra")
+install.packages("here")
+install.packages("ggbeeswarm")
+library(tidyverse) # a collection of data-related packages
+library(knitr) # for kable
+library(kableExtra)
+library(here)
+library(ggbeeswarm)
+```
+
+## 
