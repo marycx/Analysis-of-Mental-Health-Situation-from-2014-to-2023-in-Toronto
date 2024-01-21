@@ -57,5 +57,3 @@ mental_health_data_cleaned <-
 # save the cleaned csv file
 write_csv(mental_health_data_cleaned, "inputs/data/cleaned_data.csv")
 ```
-
-## 
