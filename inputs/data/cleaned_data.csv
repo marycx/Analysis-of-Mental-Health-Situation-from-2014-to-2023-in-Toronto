@@ -1,6 +1,5 @@
 occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Apartment
-2015,Female,Not Recorded,Outside
 2015,Female,45 to 54,Apartment
 2015,Female,55 to 64,Outside
 2015,Male,18 to 24,Apartment
@@ -138,7 +137,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,18 to 24,Other
 2015,Male,35 to 44,Other
 2015,Male,25 to 34,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Female,45 to 54,Apartment
 2015,Female,55 to 64,Apartment
 2015,Female,35 to 44,Other
@@ -165,7 +163,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Commercial
 2015,Male,55 to 64,Other
 2015,Male,18 to 24,Other
-2015,Female,Not Recorded,Other
 2015,Female,65+,Apartment
 2015,Male,25 to 34,Other
 2015,Male,55 to 64,Other
@@ -327,9 +324,7 @@ occurred_year,sex,age_group,premises_type
 2015,Female,18 to 24,Apartment
 2015,Female,25 to 34,Other
 2015,Female,25 to 34,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Male,45 to 54,Outside
-2015,Male,Not Recorded,Other
 2015,Male,55 to 64,House
 2015,Female,65+,House
 2015,Male,45 to 54,Commercial
@@ -434,7 +429,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,65+,Apartment
 2015,Male,45 to 54,Apartment
 2015,Male,65+,Outside
-2015,Male,Not Recorded,Other
 2015,Male,45 to 54,Other
 2015,Female,35 to 44,Apartment
 2015,Male,55 to 64,House
@@ -477,7 +471,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,35 to 44,Other
 2015,Female,18 to 24,Outside
 2015,Female,18 to 24,House
-2015,Male,Not Recorded,House
 2015,Female,35 to 44,House
 2015,Female,65+,Apartment
 2015,Female,65+,Outside
@@ -509,7 +502,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Apartment
 2015,Male,65+,House
 2015,Male,18 to 24,House
-2015,Male,Not Recorded,House
 2015,Male,55 to 64,Apartment
 2015,Male,55 to 64,Apartment
 2015,Female,55 to 64,House
@@ -723,7 +715,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,55 to 64,Apartment
 2015,Male,35 to 44,House
 2015,Male,18 to 24,Outside
-2015,Male,Not Recorded,Outside
 2015,Female,35 to 44,Other
 2015,Male,35 to 44,Transit
 2015,Female,45 to 54,House
@@ -803,7 +794,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Apartment
 2015,Male,45 to 54,Apartment
 2015,Female,25 to 34,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Female,18 to 24,Apartment
 2015,Female,18 to 24,Outside
 2015,Female,25 to 34,Apartment
@@ -836,7 +826,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Outside
 2015,Female,18 to 24,Commercial
 2015,Female,45 to 54,House
-2015,Female,Not Recorded,Educational
 2015,Male,45 to 54,Apartment
 2015,Female,45 to 54,Apartment
 2015,Male,25 to 34,Apartment
@@ -904,7 +893,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,35 to 44,Apartment
 2015,Female,55 to 64,Transit
 2015,Female,25 to 34,House
-2015,Female,Not Recorded,Commercial
 2015,Female,35 to 44,Outside
 2015,Male,55 to 64,Outside
 2015,Female,55 to 64,Apartment
@@ -945,7 +933,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Apartment
 2015,Female,25 to 34,Outside
 2015,Female,65+,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Female,35 to 44,Apartment
 2015,Female,25 to 34,House
 2015,Male,25 to 34,Other
@@ -988,7 +975,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,House
 2015,Female,25 to 34,Apartment
 2015,Male,45 to 54,Transit
-2015,Female,Not Recorded,House
 2015,Male,25 to 34,Apartment
 2015,Male,35 to 44,Apartment
 2015,Female,18 to 24,Commercial
@@ -1110,7 +1096,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,65+,Apartment
 2015,Male,25 to 34,Other
 2015,Female,35 to 44,House
-2015,Female,Not Recorded,Apartment
 2015,Female,55 to 64,Apartment
 2015,Female,45 to 54,Other
 2015,Male,18 to 24,House
@@ -1416,7 +1401,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Apartment
 2015,Male,45 to 54,Other
 2015,Female,65+,House
-2015,Male,Not Recorded,Apartment
 2015,Female,45 to 54,Apartment
 2015,Female,45 to 54,Transit
 2015,Female,35 to 44,House
@@ -1435,21 +1419,18 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Apartment
 2015,Male,55 to 64,Apartment
 2015,Male,35 to 44,Other
-2015,Female,Not Recorded,Other
 2015,Male,65+,Outside
 2015,Male,25 to 34,House
 2015,Male,25 to 34,Other
 2015,Male,45 to 54,Apartment
 2015,Female,25 to 34,Apartment
 2015,Male,55 to 64,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Female,25 to 34,Commercial
 2015,Female,45 to 54,Apartment
 2015,Female,45 to 54,Commercial
 2015,Male,25 to 34,Apartment
 2015,Female,18 to 24,Apartment
 2015,Female,65+,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Female,35 to 44,Apartment
 2015,Male,18 to 24,Educational
 2015,Female,18 to 24,Outside
@@ -1462,7 +1443,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Apartment
 2015,Female,18 to 24,Other
 2015,Male,35 to 44,Other
-2015,Female,Not Recorded,Other
 2015,Male,35 to 44,Apartment
 2015,Male,18 to 24,Outside
 2015,Male,25 to 34,House
@@ -1472,13 +1452,11 @@ occurred_year,sex,age_group,premises_type
 2015,Female,45 to 54,Other
 2015,Female,25 to 34,Apartment
 2015,Female,45 to 54,Apartment
-2015,Male,Not Recorded,Commercial
 2015,Male,45 to 54,Apartment
 2015,Male,45 to 54,Apartment
 2015,Male,45 to 54,Outside
 2015,Male,45 to 54,Other
 2015,Female,25 to 34,Apartment
-2015,Not Recorded,Not Recorded,Apartment
 2015,Male,65+,Other
 2015,Female,35 to 44,House
 2015,Male,18 to 24,Apartment
@@ -1668,7 +1646,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,18 to 24,Other
 2015,Male,25 to 34,Outside
 2015,Female,45 to 54,House
-2015,Female,Not Recorded,House
 2015,Female,55 to 64,Apartment
 2015,Male,45 to 54,Apartment
 2015,Male,35 to 44,Commercial
@@ -1681,7 +1658,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Apartment
 2015,Male,25 to 34,Apartment
 2015,Male,45 to 54,Other
-2015,Female,Not Recorded,Apartment
 2015,Female,45 to 54,House
 2015,Female,65+,House
 2015,Male,65+,Apartment
@@ -1699,7 +1675,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Apartment
 2015,Male,45 to 54,House
 2015,Male,18 to 24,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Female,25 to 34,Other
 2015,Male,45 to 54,Apartment
 2015,Male,25 to 34,Transit
@@ -1799,7 +1774,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Transit
 2015,Female,25 to 34,Apartment
 2015,Male,55 to 64,Other
-2015,Female,Not Recorded,Other
 2015,Female,35 to 44,Outside
 2015,Male,45 to 54,Apartment
 2015,Male,25 to 34,Outside
@@ -1809,7 +1783,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Apartment
 2015,Male,55 to 64,Other
 2015,Male,25 to 34,Commercial
-2015,Male,Not Recorded,House
 2015,Female,18 to 24,House
 2015,Male,25 to 34,Apartment
 2015,Female,18 to 24,House
@@ -1890,7 +1863,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Apartment
 2015,Female,45 to 54,Apartment
 2015,Male,45 to 54,Outside
-2015,Male,Not Recorded,Other
 2015,Female,25 to 34,Transit
 2015,Female,25 to 34,Other
 2015,Male,18 to 24,House
@@ -1968,7 +1940,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,65+,House
 2015,Male,35 to 44,Apartment
 2015,Male,35 to 44,House
-2015,Male,Not Recorded,Outside
 2015,Female,65+,Apartment
 2015,Male,45 to 54,Outside
 2015,Male,35 to 44,Apartment
@@ -1991,7 +1962,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Commercial
 2015,Male,35 to 44,House
 2015,Female,18 to 24,Outside
-2015,Male,Not Recorded,Apartment
 2015,Female,18 to 24,House
 2015,Female,18 to 24,Apartment
 2015,Male,35 to 44,Apartment
@@ -2043,7 +2013,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,45 to 54,Other
 2015,Female,55 to 64,Other
 2015,Male,25 to 34,Outside
-2015,Female,Not Recorded,Apartment
 2015,Male,65+,Apartment
 2015,Female,55 to 64,Apartment
 2015,Male,18 to 24,Apartment
@@ -2091,7 +2060,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,18 to 24,Apartment
 2015,Male,18 to 24,Educational
 2015,Male,55 to 64,Other
-2015,Female,Not Recorded,House
 2015,Male,45 to 54,House
 2015,Female,25 to 34,Commercial
 2015,Female,18 to 24,Apartment
@@ -2122,7 +2090,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Apartment
 2015,Female,35 to 44,Apartment
 2015,Male,55 to 64,Apartment
-2015,Female,Not Recorded,Outside
 2015,Male,65+,Other
 2015,Female,18 to 24,House
 2015,Female,35 to 44,Apartment
@@ -2185,7 +2152,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Apartment
 2015,Female,35 to 44,Outside
 2015,Male,35 to 44,Other
-2015,Female,Not Recorded,Other
 2015,Female,45 to 54,Transit
 2015,Male,65+,Other
 2015,Female,18 to 24,Educational
@@ -2294,7 +2260,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,35 to 44,Apartment
 2015,Female,25 to 34,Apartment
 2015,Male,35 to 44,Outside
-2015,Male,Not Recorded,House
 2015,Male,55 to 64,Commercial
 2015,Male,45 to 54,Apartment
 2015,Male,45 to 54,House
@@ -2304,7 +2269,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Outside
 2015,Male,65+,Other
 2015,Female,45 to 54,Other
-2015,Female,Not Recorded,Apartment
 2015,Male,65+,House
 2015,Male,25 to 34,Outside
 2015,Female,55 to 64,Outside
@@ -2315,7 +2279,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,35 to 44,Apartment
 2015,Male,18 to 24,Apartment
 2015,Female,45 to 54,Commercial
-2015,Female,Not Recorded,Outside
 2015,Female,25 to 34,Outside
 2015,Female,18 to 24,Commercial
 2015,Male,35 to 44,Outside
@@ -2354,7 +2317,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,65+,Apartment
 2015,Male,35 to 44,Apartment
 2015,Male,55 to 64,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Female,25 to 34,Commercial
 2015,Female,65+,Other
 2015,Male,25 to 34,Apartment
@@ -2456,7 +2418,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,35 to 44,Outside
 2015,Male,65+,House
 2015,Male,35 to 44,Other
-2015,Female,Not Recorded,House
 2015,Female,35 to 44,House
 2015,Male,55 to 64,Other
 2015,Male,25 to 34,Outside
@@ -2473,7 +2434,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,45 to 54,Other
 2015,Male,25 to 34,Apartment
 2015,Female,18 to 24,House
-2015,Male,Not Recorded,Educational
 2015,Male,25 to 34,Apartment
 2015,Male,45 to 54,Apartment
 2015,Female,55 to 64,House
@@ -2593,7 +2553,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Apartment
 2015,Male,35 to 44,Other
 2015,Male,25 to 34,Other
-2015,Female,Not Recorded,Apartment
 2015,Female,35 to 44,Apartment
 2015,Male,25 to 34,House
 2015,Female,35 to 44,House
@@ -2650,7 +2609,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,45 to 54,Apartment
 2015,Female,25 to 34,Outside
 2015,Male,35 to 44,Apartment
-2015,Female,Not Recorded,Outside
 2015,Male,25 to 34,Apartment
 2015,Male,18 to 24,Outside
 2015,Male,18 to 24,Other
@@ -2776,7 +2734,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,18 to 24,Outside
 2015,Male,18 to 24,Apartment
 2015,Male,35 to 44,Apartment
-2015,Male,Not Recorded,Other
 2015,Male,18 to 24,Apartment
 2015,Male,35 to 44,Apartment
 2015,Female,25 to 34,Apartment
@@ -2824,7 +2781,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,45 to 54,Apartment
 2015,Male,18 to 24,Other
 2015,Male,35 to 44,Outside
-2015,Male,Not Recorded,Outside
 2015,Male,25 to 34,Transit
 2015,Male,35 to 44,Commercial
 2015,Female,45 to 54,House
@@ -2881,7 +2837,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Other
 2015,Female,55 to 64,Transit
 2015,Male,25 to 34,Apartment
-2015,Female,Not Recorded,Commercial
 2015,Male,35 to 44,Apartment
 2015,Male,55 to 64,Apartment
 2015,Female,55 to 64,Apartment
@@ -2934,7 +2889,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,House
 2015,Female,55 to 64,Other
 2015,Male,18 to 24,Apartment
-2015,Male,Not Recorded,Educational
 2015,Male,45 to 54,Outside
 2015,Female,65+,Apartment
 2015,Female,18 to 24,Apartment
@@ -2946,16 +2900,12 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,House
 2015,Male,18 to 24,Other
 2015,Female,35 to 44,Other
-2015,Male,Not Recorded,Other
-2015,Female,Not Recorded,Apartment
 2015,Male,18 to 24,House
 2015,Female,25 to 34,House
 2015,Male,35 to 44,Outside
-2015,Male,Not Recorded,House
 2015,Male,65+,Apartment
 2015,Female,18 to 24,Apartment
 2015,Male,25 to 34,House
-2015,Female,Not Recorded,Outside
 2015,Male,18 to 24,Outside
 2015,Male,18 to 24,House
 2015,Female,25 to 34,House
@@ -3023,7 +2973,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,45 to 54,Apartment
 2015,Male,25 to 34,Outside
 2015,Female,35 to 44,Commercial
-2015,Male,Not Recorded,Apartment
 2015,Male,45 to 54,Apartment
 2015,Female,65+,House
 2015,Male,35 to 44,Apartment
@@ -3258,7 +3207,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,House
 2015,Female,55 to 64,Apartment
 2015,Male,18 to 24,Outside
-2015,Male,Not Recorded,Apartment
 2015,Male,55 to 64,Other
 2015,Male,45 to 54,House
 2015,Male,25 to 34,Other
@@ -3349,7 +3297,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Outside
 2015,Male,35 to 44,Apartment
 2015,Female,18 to 24,Other
-2015,Male,Not Recorded,Outside
 2015,Male,35 to 44,Apartment
 2015,Male,18 to 24,Other
 2015,Female,18 to 24,House
@@ -3362,7 +3309,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Apartment
 2015,Male,35 to 44,Outside
 2015,Male,35 to 44,House
-2015,Female,Not Recorded,House
 2015,Male,35 to 44,House
 2015,Female,35 to 44,Apartment
 2015,Female,35 to 44,Outside
@@ -3390,7 +3336,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Outside
 2015,Male,55 to 64,Other
 2015,Male,35 to 44,Outside
-2015,Male,Not Recorded,Other
 2015,Male,18 to 24,House
 2015,Female,18 to 24,Educational
 2015,Male,65+,House
@@ -3438,18 +3383,15 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Apartment
 2015,Male,55 to 64,House
 2015,Male,65+,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Male,18 to 24,Outside
 2015,Female,45 to 54,Apartment
 2015,Female,25 to 34,Outside
 2015,Male,35 to 44,Other
 2015,Male,18 to 24,House
 2015,Female,25 to 34,Outside
-2015,Female,Not Recorded,Outside
 2015,Male,25 to 34,House
 2015,Female,55 to 64,Apartment
 2015,Male,45 to 54,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Male,25 to 34,Other
 2015,Male,35 to 44,Apartment
 2015,Male,25 to 34,Apartment
@@ -3627,7 +3569,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,45 to 54,Apartment
 2015,Male,55 to 64,Other
 2015,Female,25 to 34,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Female,55 to 64,Apartment
 2015,Female,18 to 24,Apartment
 2015,Male,45 to 54,House
@@ -3737,7 +3678,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,65+,Other
 2015,Female,18 to 24,Other
 2015,Female,25 to 34,Apartment
-2015,Male,Not Recorded,Outside
 2015,Male,25 to 34,House
 2015,Male,65+,Outside
 2015,Female,45 to 54,Apartment
@@ -3767,7 +3707,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,18 to 24,Apartment
 2015,Male,18 to 24,Apartment
 2015,Male,25 to 34,Other
-2015,Female,Not Recorded,Apartment
 2015,Female,45 to 54,Apartment
 2015,Female,18 to 24,House
 2015,Female,25 to 34,House
@@ -3873,7 +3812,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,65+,Apartment
 2015,Male,45 to 54,Outside
 2015,Female,25 to 34,House
-2015,Male,Not Recorded,Apartment
 2015,Male,35 to 44,Other
 2015,Female,18 to 24,Other
 2015,Male,65+,Apartment
@@ -3912,7 +3850,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,House
 2015,Female,25 to 34,Commercial
 2015,Male,18 to 24,House
-2015,Male,Not Recorded,Apartment
 2015,Male,25 to 34,Apartment
 2015,Female,65+,Other
 2015,Female,35 to 44,Apartment
@@ -3929,7 +3866,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Apartment
 2015,Female,35 to 44,Apartment
 2015,Male,55 to 64,Outside
-2015,Male,Not Recorded,House
 2015,Male,25 to 34,Apartment
 2015,Female,45 to 54,Educational
 2015,Male,35 to 44,Apartment
@@ -3980,7 +3916,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Apartment
 2015,Male,35 to 44,Other
 2015,Male,25 to 34,Apartment
-2015,Male,Not Recorded,Outside
 2015,Female,35 to 44,Other
 2015,Male,45 to 54,Commercial
 2015,Male,45 to 54,Outside
@@ -4158,7 +4093,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Apartment
 2015,Female,55 to 64,Transit
 2015,Male,18 to 24,Apartment
-2015,Female,Not Recorded,Outside
 2015,Female,18 to 24,Outside
 2015,Female,65+,Other
 2015,Female,55 to 64,Apartment
@@ -4227,8 +4161,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,55 to 64,Apartment
 2015,Male,25 to 34,Outside
 2015,Female,25 to 34,Apartment
-2015,Male,Not Recorded,House
-2015,Female,Not Recorded,Outside
 2015,Male,18 to 24,Other
 2015,Female,45 to 54,House
 2015,Female,65+,Other
@@ -4353,7 +4285,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Other
 2015,Male,45 to 54,Other
 2015,Male,18 to 24,Outside
-2015,Male,Not Recorded,Apartment
 2015,Female,65+,Apartment
 2015,Female,25 to 34,Transit
 2015,Female,45 to 54,Apartment
@@ -4385,7 +4316,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Apartment
 2015,Female,25 to 34,Apartment
 2015,Male,65+,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Male,35 to 44,Outside
 2015,Male,45 to 54,Apartment
 2015,Male,35 to 44,House
@@ -4478,7 +4408,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,35 to 44,Apartment
 2015,Male,18 to 24,Other
 2015,Male,25 to 34,Outside
-2015,Female,Not Recorded,Commercial
 2015,Male,35 to 44,Apartment
 2015,Male,25 to 34,House
 2015,Male,25 to 34,Outside
@@ -4492,7 +4421,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,55 to 64,Apartment
 2015,Female,18 to 24,Apartment
 2015,Female,18 to 24,Commercial
-2015,Male,Not Recorded,Other
 2015,Male,35 to 44,Apartment
 2015,Male,18 to 24,Apartment
 2015,Male,45 to 54,Apartment
@@ -4563,7 +4491,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,65+,Commercial
 2015,Male,25 to 34,House
 2015,Female,35 to 44,Outside
-2015,Female,Not Recorded,Outside
 2015,Female,18 to 24,Outside
 2015,Male,18 to 24,Outside
 2015,Male,25 to 34,House
@@ -4588,7 +4515,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,45 to 54,Apartment
 2015,Male,18 to 24,Commercial
 2015,Male,18 to 24,House
-2015,Female,Not Recorded,Commercial
 2015,Female,18 to 24,Outside
 2015,Female,55 to 64,Other
 2015,Male,45 to 54,Apartment
@@ -4696,9 +4622,7 @@ occurred_year,sex,age_group,premises_type
 2015,Female,35 to 44,Outside
 2015,Female,35 to 44,Outside
 2015,Female,25 to 34,Other
-2015,Male,Not Recorded,Outside
 2015,Male,25 to 34,Apartment
-2015,Female,Not Recorded,Outside
 2015,Male,55 to 64,Outside
 2015,Female,18 to 24,Apartment
 2015,Male,55 to 64,Outside
@@ -4885,7 +4809,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,45 to 54,Outside
 2015,Female,55 to 64,Apartment
 2015,Male,25 to 34,House
-2015,Male,Not Recorded,Apartment
 2015,Male,45 to 54,House
 2015,Male,18 to 24,Outside
 2015,Female,25 to 34,House
@@ -5153,7 +5076,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Other
 2015,Male,18 to 24,House
 2015,Female,45 to 54,House
-2015,Male,Not Recorded,Outside
 2015,Male,55 to 64,Apartment
 2015,Female,45 to 54,Outside
 2015,Female,35 to 44,Apartment
@@ -5281,7 +5203,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,18 to 24,House
 2015,Female,25 to 34,Other
 2015,Male,25 to 34,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Male,18 to 24,Other
 2015,Female,25 to 34,Outside
 2015,Male,25 to 34,Transit
@@ -5312,7 +5233,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,45 to 54,Outside
 2015,Female,35 to 44,Outside
 2015,Male,55 to 64,Outside
-2015,Female,Not Recorded,Other
 2015,Female,25 to 34,Apartment
 2015,Female,25 to 34,Outside
 2015,Male,55 to 64,Apartment
@@ -5344,7 +5264,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,65+,Commercial
 2015,Male,35 to 44,Apartment
 2015,Male,35 to 44,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Male,25 to 34,Other
 2015,Female,18 to 24,Apartment
 2015,Female,25 to 34,Outside
@@ -5474,7 +5393,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Other
 2015,Female,18 to 24,Apartment
 2015,Male,25 to 34,Outside
-2015,Female,Not Recorded,House
 2015,Female,35 to 44,Other
 2015,Male,18 to 24,House
 2015,Female,18 to 24,Outside
@@ -5739,7 +5657,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Outside
 2015,Male,55 to 64,Apartment
 2015,Male,25 to 34,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Male,25 to 34,Apartment
 2015,Female,35 to 44,Apartment
 2015,Male,25 to 34,Apartment
@@ -5794,7 +5711,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,55 to 64,Commercial
 2015,Female,65+,Apartment
 2015,Male,18 to 24,Apartment
-2015,Male,Not Recorded,House
 2015,Male,45 to 54,Other
 2015,Female,18 to 24,House
 2015,Male,65+,Apartment
@@ -5899,7 +5815,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,House
 2015,Male,35 to 44,House
 2015,Male,55 to 64,Other
-2015,Female,Not Recorded,Apartment
 2015,Male,55 to 64,Outside
 2015,Male,25 to 34,Other
 2015,Female,25 to 34,Commercial
@@ -6150,7 +6065,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Apartment
 2015,Female,55 to 64,Apartment
 2015,Male,35 to 44,Apartment
-2015,Male,Not Recorded,House
 2015,Female,25 to 34,Apartment
 2015,Male,25 to 34,Apartment
 2015,Male,55 to 64,Apartment
@@ -6183,7 +6097,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Other
 2015,Female,25 to 34,Apartment
 2015,Female,35 to 44,Apartment
-2015,Male,Not Recorded,House
 2015,Female,65+,Apartment
 2015,Female,45 to 54,Apartment
 2015,Male,18 to 24,House
@@ -6202,7 +6115,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Outside
 2015,Female,35 to 44,Apartment
 2015,Female,45 to 54,Commercial
-2015,Female,Not Recorded,Apartment
 2015,Male,35 to 44,Apartment
 2015,Male,25 to 34,Outside
 2015,Male,25 to 34,Apartment
@@ -6254,7 +6166,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Other
 2015,Male,45 to 54,Apartment
 2015,Female,18 to 24,Outside
-2015,Male,Not Recorded,Apartment
 2015,Male,45 to 54,Apartment
 2015,Female,25 to 34,House
 2015,Female,35 to 44,Apartment
@@ -6415,18 +6326,15 @@ occurred_year,sex,age_group,premises_type
 2015,Female,55 to 64,Apartment
 2015,Male,25 to 34,Other
 2015,Male,35 to 44,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Female,65+,Apartment
 2015,Male,55 to 64,Other
 2015,Female,25 to 34,Other
 2015,Male,18 to 24,Outside
-2015,Male,Not Recorded,Apartment
 2015,Male,35 to 44,House
 2015,Male,25 to 34,Apartment
 2015,Male,65+,Other
 2015,Male,45 to 54,Outside
 2015,Male,25 to 34,House
-2015,Female,Not Recorded,House
 2015,Male,55 to 64,Apartment
 2015,Male,35 to 44,Apartment
 2015,Male,25 to 34,Apartment
@@ -6442,10 +6350,8 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Outside
 2015,Male,18 to 24,House
 2015,Female,25 to 34,House
-2015,Female,Not Recorded,House
 2015,Female,18 to 24,Other
 2015,Male,25 to 34,Apartment
-2015,Female,Not Recorded,House
 2015,Male,55 to 64,Other
 2015,Male,55 to 64,Apartment
 2015,Male,18 to 24,House
@@ -6454,7 +6360,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,45 to 54,House
 2015,Female,65+,Other
 2015,Male,25 to 34,House
-2015,Female,Not Recorded,Commercial
 2015,Male,35 to 44,Apartment
 2015,Male,18 to 24,Other
 2015,Male,25 to 34,Apartment
@@ -6508,7 +6413,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,House
 2015,Female,25 to 34,Apartment
 2015,Male,25 to 34,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Male,55 to 64,Other
 2015,Male,25 to 34,Apartment
 2015,Male,55 to 64,Apartment
@@ -6875,7 +6779,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Other
 2015,Male,35 to 44,Apartment
 2015,Male,35 to 44,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Female,45 to 54,Apartment
 2015,Female,45 to 54,Apartment
 2015,Female,25 to 34,Apartment
@@ -6980,7 +6883,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,35 to 44,House
 2015,Male,35 to 44,Commercial
 2015,Male,55 to 64,Outside
-2015,Female,Not Recorded,Other
 2015,Female,25 to 34,Apartment
 2015,Female,45 to 54,Other
 2015,Female,35 to 44,Outside
@@ -7031,13 +6933,11 @@ occurred_year,sex,age_group,premises_type
 2015,Male,18 to 24,Apartment
 2015,Female,18 to 24,Outside
 2015,Female,25 to 34,House
-2015,Female,Not Recorded,House
 2015,Female,35 to 44,Apartment
 2015,Female,25 to 34,Outside
 2015,Female,65+,Apartment
 2015,Male,25 to 34,Commercial
 2015,Male,55 to 64,Apartment
-2015,Female,Not Recorded,Apartment
 2015,Female,35 to 44,Outside
 2015,Female,65+,Other
 2015,Female,35 to 44,Apartment
@@ -7077,7 +6977,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,65+,Other
 2015,Male,25 to 34,Apartment
 2015,Male,18 to 24,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Male,45 to 54,Apartment
 2015,Male,25 to 34,Transit
 2015,Male,18 to 24,House
@@ -7206,7 +7105,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,25 to 34,Outside
 2015,Male,55 to 64,Apartment
 2015,Male,35 to 44,Other
-2015,Female,Not Recorded,Apartment
 2015,Male,25 to 34,Commercial
 2015,Male,25 to 34,Other
 2015,Male,25 to 34,Outside
@@ -7303,7 +7201,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Other
 2015,Female,25 to 34,Other
 2015,Female,55 to 64,Other
-2015,Male,Not Recorded,Apartment
 2015,Male,25 to 34,House
 2015,Female,35 to 44,Commercial
 2015,Male,25 to 34,Outside
@@ -7367,7 +7264,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,18 to 24,Commercial
 2015,Female,25 to 34,House
 2015,Female,55 to 64,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Male,25 to 34,Other
 2015,Male,35 to 44,Outside
 2015,Male,35 to 44,Apartment
@@ -7421,7 +7317,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,35 to 44,Apartment
 2015,Male,55 to 64,House
 2015,Female,45 to 54,House
-2015,Female,Not Recorded,Other
 2015,Male,25 to 34,Other
 2015,Female,55 to 64,House
 2015,Male,18 to 24,House
@@ -7473,8 +7368,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,55 to 64,Apartment
 2015,Female,35 to 44,Apartment
 2015,Female,55 to 64,Apartment
-2015,Female,Not Recorded,Other
-2015,Female,Not Recorded,Apartment
 2015,Female,55 to 64,Other
 2015,Male,25 to 34,Outside
 2015,Female,35 to 44,Other
@@ -7618,7 +7511,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,45 to 54,Apartment
 2015,Male,25 to 34,Outside
 2015,Male,25 to 34,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Male,55 to 64,Apartment
 2015,Female,35 to 44,Other
 2015,Female,35 to 44,Outside
@@ -7645,7 +7537,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,18 to 24,Other
 2015,Female,18 to 24,Other
 2015,Female,25 to 34,Apartment
-2015,Female,Not Recorded,House
 2015,Female,18 to 24,House
 2015,Female,25 to 34,Apartment
 2015,Male,25 to 34,Other
@@ -7709,7 +7600,6 @@ occurred_year,sex,age_group,premises_type
 2015,Female,25 to 34,Apartment
 2015,Male,65+,House
 2015,Female,18 to 24,House
-2015,Female,Not Recorded,Other
 2015,Male,45 to 54,Apartment
 2015,Female,18 to 24,Outside
 2015,Female,18 to 24,House
@@ -8058,7 +7948,6 @@ occurred_year,sex,age_group,premises_type
 2015,Male,45 to 54,Other
 2015,Male,45 to 54,House
 2015,Female,65+,Apartment
-2015,Male,Not Recorded,Apartment
 2015,Male,18 to 24,Apartment
 2015,Male,55 to 64,Outside
 2015,Male,65+,Apartment
@@ -8296,7 +8185,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,35 to 44,House
 2016,Male,35 to 44,Apartment
 2016,Female,18 to 24,Educational
-2016,Female,Not Recorded,Apartment
 2016,Male,18 to 24,Outside
 2016,Male,18 to 24,House
 2016,Male,18 to 24,Apartment
@@ -8418,7 +8306,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Outside
 2016,Female,25 to 34,Apartment
 2016,Female,35 to 44,Apartment
-2016,Male,Not Recorded,Outside
 2016,Male,25 to 34,House
 2016,Female,55 to 64,Apartment
 2016,Female,35 to 44,Apartment
@@ -8493,7 +8380,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Apartment
 2016,Male,25 to 34,Commercial
 2016,Female,35 to 44,Other
-2016,Female,Not Recorded,House
 2016,Male,25 to 34,Apartment
 2016,Female,45 to 54,Apartment
 2016,Male,25 to 34,House
@@ -8554,9 +8440,7 @@ occurred_year,sex,age_group,premises_type
 2016,Female,45 to 54,Apartment
 2016,Female,35 to 44,Outside
 2016,Female,45 to 54,House
-2016,Female,Not Recorded,Transit
 2016,Male,18 to 24,Apartment
-2016,Male,Not Recorded,Outside
 2016,Male,35 to 44,Apartment
 2016,Female,25 to 34,Outside
 2016,Female,55 to 64,Apartment
@@ -8641,7 +8525,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Other
 2016,Male,65+,Apartment
 2016,Female,18 to 24,Educational
-2016,Male,Not Recorded,Apartment
 2016,Female,55 to 64,Apartment
 2016,Male,25 to 34,Apartment
 2016,Male,65+,Other
@@ -8668,7 +8551,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,65+,Apartment
 2016,Male,55 to 64,Apartment
 2016,Male,25 to 34,Apartment
-2016,Male,Not Recorded,Commercial
 2016,Male,35 to 44,Other
 2016,Female,65+,Apartment
 2016,Female,25 to 34,Other
@@ -8694,7 +8576,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,55 to 64,Outside
 2016,Male,25 to 34,Apartment
 2016,Female,25 to 34,Transit
-2016,Male,Not Recorded,Commercial
 2016,Female,45 to 54,Other
 2016,Male,25 to 34,House
 2016,Female,45 to 54,Apartment
@@ -8723,7 +8604,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,35 to 44,Outside
 2016,Male,18 to 24,Transit
 2016,Female,18 to 24,Apartment
-2016,Male,Not Recorded,Apartment
 2016,Female,25 to 34,Outside
 2016,Male,18 to 24,Apartment
 2016,Female,45 to 54,Apartment
@@ -8898,11 +8778,8 @@ occurred_year,sex,age_group,premises_type
 2016,Female,65+,Apartment
 2016,Female,35 to 44,Apartment
 2016,Female,35 to 44,Outside
-2016,Female,Not Recorded,Apartment
 2016,Male,35 to 44,Apartment
-2016,Female,Not Recorded,Other
 2016,Female,35 to 44,Outside
-2016,Female,Not Recorded,Other
 2016,Male,25 to 34,Other
 2016,Male,25 to 34,Outside
 2016,Female,35 to 44,Apartment
@@ -8927,7 +8804,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,55 to 64,Apartment
 2016,Male,45 to 54,House
 2016,Male,18 to 24,Apartment
-2016,Male,Not Recorded,Other
 2016,Female,45 to 54,Other
 2016,Male,25 to 34,Outside
 2016,Male,18 to 24,House
@@ -8951,7 +8827,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Other
 2016,Male,35 to 44,Apartment
 2016,Female,18 to 24,House
-2016,Male,Not Recorded,Other
 2016,Male,65+,Apartment
 2016,Male,25 to 34,Apartment
 2016,Female,25 to 34,Other
@@ -9079,7 +8954,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,45 to 54,House
 2016,Male,35 to 44,Outside
 2016,Female,45 to 54,Apartment
-2016,Male,Not Recorded,House
 2016,Male,25 to 34,Apartment
 2016,Male,18 to 24,House
 2016,Male,18 to 24,Other
@@ -9111,7 +8985,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,House
 2016,Female,65+,Other
 2016,Female,45 to 54,Other
-2016,Male,Not Recorded,Other
 2016,Female,25 to 34,Outside
 2016,Male,25 to 34,Apartment
 2016,Female,35 to 44,Apartment
@@ -9155,7 +9028,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Apartment
 2016,Male,25 to 34,Apartment
 2016,Male,45 to 54,House
-2016,Female,Not Recorded,Outside
 2016,Male,45 to 54,Other
 2016,Female,25 to 34,Apartment
 2016,Female,25 to 34,House
@@ -9518,7 +9390,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,18 to 24,Apartment
 2016,Male,25 to 34,Other
 2016,Female,18 to 24,Outside
-2016,Male,Not Recorded,Outside
 2016,Male,18 to 24,Outside
 2016,Female,18 to 24,Outside
 2016,Male,25 to 34,Apartment
@@ -9586,7 +9457,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,45 to 54,House
 2016,Male,35 to 44,Other
 2016,Female,18 to 24,Transit
-2016,Female,Not Recorded,Other
 2016,Male,65+,Apartment
 2016,Male,35 to 44,Commercial
 2016,Female,25 to 34,Apartment
@@ -9890,7 +9760,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Apartment
 2016,Female,65+,Apartment
 2016,Female,45 to 54,Apartment
-2016,Male,Not Recorded,House
 2016,Female,45 to 54,Outside
 2016,Male,45 to 54,Outside
 2016,Male,55 to 64,Outside
@@ -10067,7 +9936,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,18 to 24,Commercial
 2016,Male,25 to 34,Apartment
 2016,Male,55 to 64,Apartment
-2016,Male,Not Recorded,Outside
 2016,Female,18 to 24,Other
 2016,Female,18 to 24,Apartment
 2016,Male,45 to 54,Apartment
@@ -10173,7 +10041,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Educational
 2016,Male,35 to 44,Apartment
 2016,Male,55 to 64,Apartment
-2016,Male,Not Recorded,Apartment
 2016,Female,25 to 34,Outside
 2016,Female,25 to 34,House
 2016,Female,55 to 64,Commercial
@@ -10240,7 +10107,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Apartment
 2016,Female,18 to 24,House
 2016,Female,55 to 64,House
-2016,Male,Not Recorded,Apartment
 2016,Male,18 to 24,House
 2016,Male,18 to 24,Apartment
 2016,Female,18 to 24,Apartment
@@ -10271,7 +10137,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,55 to 64,House
 2016,Male,45 to 54,House
 2016,Male,18 to 24,Other
-2016,Female,Not Recorded,Apartment
 2016,Female,35 to 44,Apartment
 2016,Female,18 to 24,Apartment
 2016,Male,25 to 34,Other
@@ -10279,7 +10144,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Apartment
 2016,Female,55 to 64,Apartment
 2016,Male,18 to 24,Apartment
-2016,Male,Not Recorded,Apartment
 2016,Male,18 to 24,House
 2016,Male,45 to 54,House
 2016,Male,45 to 54,Outside
@@ -10463,9 +10327,7 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Apartment
 2016,Female,18 to 24,House
 2016,Male,45 to 54,Other
-2016,Male,Not Recorded,Apartment
 2016,Female,65+,Other
-2016,Female,Not Recorded,Other
 2016,Female,45 to 54,Commercial
 2016,Female,18 to 24,Apartment
 2016,Male,65+,Other
@@ -10520,7 +10382,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Apartment
 2016,Male,45 to 54,House
 2016,Female,35 to 44,Other
-2016,Female,Not Recorded,Other
 2016,Female,35 to 44,Other
 2016,Female,25 to 34,Apartment
 2016,Male,55 to 64,Apartment
@@ -10578,7 +10439,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Apartment
 2016,Female,18 to 24,Apartment
 2016,Female,45 to 54,House
-2016,Female,Not Recorded,House
 2016,Male,35 to 44,Apartment
 2016,Male,35 to 44,Other
 2016,Male,65+,House
@@ -10615,7 +10475,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,45 to 54,Apartment
 2016,Female,18 to 24,Apartment
 2016,Male,25 to 34,Apartment
-2016,Female,Not Recorded,Outside
 2016,Male,25 to 34,Commercial
 2016,Female,55 to 64,House
 2016,Male,18 to 24,House
@@ -10629,7 +10488,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Other
 2016,Female,35 to 44,House
 2016,Female,45 to 54,Commercial
-2016,Male,Not Recorded,Apartment
 2016,Male,18 to 24,Other
 2016,Female,45 to 54,Apartment
 2016,Male,18 to 24,Other
@@ -10718,7 +10576,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,65+,House
 2016,Female,45 to 54,Apartment
 2016,Female,18 to 24,Outside
-2016,Male,Not Recorded,Educational
 2016,Female,18 to 24,Outside
 2016,Female,45 to 54,Other
 2016,Male,55 to 64,Outside
@@ -10759,7 +10616,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,65+,Outside
 2016,Male,35 to 44,Apartment
 2016,Female,45 to 54,House
-2016,Male,Not Recorded,House
 2016,Male,25 to 34,Apartment
 2016,Female,35 to 44,Apartment
 2016,Male,18 to 24,House
@@ -11002,7 +10858,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,55 to 64,House
 2016,Male,65+,Other
 2016,Male,45 to 54,Apartment
-2016,Female,Not Recorded,Apartment
 2016,Male,25 to 34,Apartment
 2016,Male,25 to 34,Transit
 2016,Female,55 to 64,Apartment
@@ -11027,7 +10882,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Transit
 2016,Female,35 to 44,Apartment
 2016,Male,18 to 24,Outside
-2016,Female,Not Recorded,Other
 2016,Male,55 to 64,Other
 2016,Female,18 to 24,Commercial
 2016,Male,55 to 64,House
@@ -11053,7 +10907,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,35 to 44,Other
 2016,Male,35 to 44,Apartment
 2016,Male,35 to 44,Outside
-2016,Male,Not Recorded,Educational
 2016,Female,45 to 54,Outside
 2016,Female,18 to 24,Other
 2016,Male,35 to 44,Other
@@ -11061,7 +10914,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,55 to 64,Apartment
 2016,Female,45 to 54,Apartment
 2016,Female,65+,House
-2016,Female,Not Recorded,Other
 2016,Female,18 to 24,Outside
 2016,Female,55 to 64,House
 2016,Female,65+,House
@@ -11203,7 +11055,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Outside
 2016,Female,35 to 44,Other
 2016,Male,35 to 44,House
-2016,Female,Not Recorded,Apartment
 2016,Female,25 to 34,House
 2016,Male,45 to 54,House
 2016,Female,45 to 54,Apartment
@@ -11310,7 +11161,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,45 to 54,Apartment
 2016,Male,45 to 54,Apartment
 2016,Male,35 to 44,Apartment
-2016,Male,Not Recorded,Other
 2016,Male,55 to 64,Apartment
 2016,Male,18 to 24,Apartment
 2016,Male,18 to 24,House
@@ -11425,10 +11275,8 @@ occurred_year,sex,age_group,premises_type
 2016,Female,18 to 24,Commercial
 2016,Female,25 to 34,Apartment
 2016,Female,18 to 24,Other
-2016,Female,Not Recorded,Commercial
 2016,Female,65+,Apartment
 2016,Female,45 to 54,Apartment
-2016,Female,Not Recorded,House
 2016,Female,45 to 54,House
 2016,Male,35 to 44,House
 2016,Female,55 to 64,House
@@ -11530,7 +11378,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Apartment
 2016,Male,45 to 54,Apartment
 2016,Male,25 to 34,Outside
-2016,Female,Not Recorded,Outside
 2016,Male,18 to 24,Apartment
 2016,Male,55 to 64,Apartment
 2016,Male,18 to 24,Other
@@ -11753,7 +11600,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,45 to 54,Other
 2016,Male,25 to 34,Apartment
 2016,Male,25 to 34,Other
-2016,Female,Not Recorded,Other
 2016,Male,25 to 34,Apartment
 2016,Female,35 to 44,Apartment
 2016,Female,45 to 54,Apartment
@@ -11764,7 +11610,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Apartment
 2016,Male,18 to 24,Apartment
 2016,Female,35 to 44,Apartment
-2016,Female,Not Recorded,Other
 2016,Female,25 to 34,Apartment
 2016,Female,45 to 54,Apartment
 2016,Male,18 to 24,Outside
@@ -11846,7 +11691,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,House
 2016,Female,35 to 44,Outside
 2016,Male,25 to 34,Commercial
-2016,Female,Not Recorded,Apartment
 2016,Female,65+,Apartment
 2016,Female,25 to 34,Apartment
 2016,Female,35 to 44,House
@@ -12043,7 +11887,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Outside
 2016,Male,55 to 64,Outside
 2016,Female,65+,Apartment
-2016,Female,Not Recorded,Apartment
 2016,Male,35 to 44,Other
 2016,Male,35 to 44,House
 2016,Female,45 to 54,Apartment
@@ -12104,7 +11947,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,65+,House
 2016,Female,55 to 64,Other
 2016,Male,25 to 34,House
-2016,Female,Not Recorded,Apartment
 2016,Female,45 to 54,Apartment
 2016,Male,25 to 34,House
 2016,Male,25 to 34,Outside
@@ -12158,7 +12000,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Outside
 2016,Male,25 to 34,Outside
 2016,Male,35 to 44,Apartment
-2016,Male,Not Recorded,Outside
 2016,Male,25 to 34,House
 2016,Male,45 to 54,Apartment
 2016,Male,25 to 34,Apartment
@@ -12197,7 +12038,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,45 to 54,Apartment
 2016,Male,25 to 34,Apartment
 2016,Female,18 to 24,House
-2016,Female,Not Recorded,Educational
 2016,Male,25 to 34,Outside
 2016,Female,18 to 24,Other
 2016,Female,35 to 44,House
@@ -12315,7 +12155,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,35 to 44,Other
 2016,Male,55 to 64,Apartment
 2016,Female,25 to 34,House
-2016,Male,Not Recorded,House
 2016,Male,18 to 24,Other
 2016,Female,18 to 24,Apartment
 2016,Male,35 to 44,Outside
@@ -12370,7 +12209,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,55 to 64,Apartment
 2016,Female,55 to 64,Apartment
 2016,Male,55 to 64,Apartment
-2016,Female,Not Recorded,Apartment
 2016,Male,18 to 24,House
 2016,Female,65+,Apartment
 2016,Female,25 to 34,Apartment
@@ -12473,7 +12311,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,65+,Apartment
 2016,Female,65+,Apartment
 2016,Male,45 to 54,House
-2016,Male,Not Recorded,Outside
 2016,Male,18 to 24,House
 2016,Male,65+,Apartment
 2016,Female,25 to 34,Apartment
@@ -12574,7 +12411,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Outside
 2016,Male,25 to 34,Outside
 2016,Female,35 to 44,Apartment
-2016,Male,Not Recorded,Outside
 2016,Female,25 to 34,Apartment
 2016,Female,18 to 24,Outside
 2016,Female,55 to 64,Apartment
@@ -12719,7 +12555,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,35 to 44,Apartment
 2016,Male,18 to 24,House
 2016,Male,35 to 44,Outside
-2016,Female,Not Recorded,Apartment
 2016,Female,25 to 34,Other
 2016,Male,25 to 34,Apartment
 2016,Female,25 to 34,Other
@@ -12780,7 +12615,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,18 to 24,House
 2016,Male,45 to 54,Other
 2016,Male,25 to 34,Transit
-2016,Male,Not Recorded,Apartment
 2016,Female,35 to 44,Other
 2016,Female,25 to 34,Apartment
 2016,Female,65+,Other
@@ -12796,7 +12630,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,35 to 44,Apartment
 2016,Female,25 to 34,House
 2016,Male,45 to 54,Other
-2016,Male,Not Recorded,Outside
 2016,Female,45 to 54,Apartment
 2016,Female,55 to 64,House
 2016,Female,18 to 24,Commercial
@@ -13320,8 +13153,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,45 to 54,Apartment
 2016,Female,18 to 24,Apartment
 2016,Male,25 to 34,Other
-2016,Male,Not Recorded,Other
-2016,Female,Not Recorded,Other
 2016,Male,18 to 24,House
 2016,Female,25 to 34,Other
 2016,Female,55 to 64,Apartment
@@ -13414,8 +13245,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,45 to 54,Apartment
 2016,Female,18 to 24,Other
 2016,Female,18 to 24,Outside
-2016,Female,Not Recorded,Commercial
-2016,Female,Not Recorded,Commercial
 2016,Male,35 to 44,House
 2016,Male,25 to 34,House
 2016,Male,18 to 24,Outside
@@ -13437,7 +13266,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,65+,Apartment
 2016,Male,55 to 64,House
 2016,Female,25 to 34,Apartment
-2016,Female,Not Recorded,House
 2016,Male,25 to 34,House
 2016,Female,35 to 44,Apartment
 2016,Female,18 to 24,House
@@ -13465,11 +13293,9 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Other
 2016,Female,25 to 34,Apartment
 2016,Male,55 to 64,House
-2016,Female,Not Recorded,House
 2016,Male,25 to 34,Outside
 2016,Male,55 to 64,Other
 2016,Male,18 to 24,Apartment
-2016,Male,Not Recorded,Apartment
 2016,Male,55 to 64,Outside
 2016,Male,35 to 44,Apartment
 2016,Female,25 to 34,House
@@ -13514,7 +13340,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Outside
 2016,Male,55 to 64,Outside
 2016,Male,55 to 64,Apartment
-2016,Male,Not Recorded,Apartment
 2016,Female,25 to 34,Apartment
 2016,Female,45 to 54,Outside
 2016,Female,25 to 34,Outside
@@ -13541,7 +13366,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,35 to 44,Apartment
 2016,Female,25 to 34,Other
 2016,Female,35 to 44,Other
-2016,Female,Not Recorded,House
 2016,Male,45 to 54,Outside
 2016,Male,25 to 34,House
 2016,Male,18 to 24,Outside
@@ -13621,7 +13445,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,House
 2016,Female,18 to 24,Outside
 2016,Male,18 to 24,Other
-2016,Male,Not Recorded,Outside
 2016,Male,35 to 44,Outside
 2016,Male,45 to 54,Apartment
 2016,Female,35 to 44,Outside
@@ -13823,7 +13646,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,18 to 24,Outside
 2016,Male,18 to 24,Apartment
 2016,Male,25 to 34,House
-2016,Male,Not Recorded,Apartment
 2016,Female,45 to 54,Apartment
 2016,Male,45 to 54,Outside
 2016,Male,25 to 34,Other
@@ -13897,7 +13719,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Outside
 2016,Female,35 to 44,House
 2016,Male,35 to 44,Apartment
-2016,Female,Not Recorded,Outside
 2016,Male,25 to 34,House
 2016,Female,65+,Other
 2016,Male,25 to 34,Outside
@@ -13920,7 +13741,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,House
 2016,Female,25 to 34,Outside
 2016,Male,35 to 44,Other
-2016,Male,Not Recorded,Educational
 2016,Female,25 to 34,House
 2016,Female,45 to 54,Outside
 2016,Male,45 to 54,Apartment
@@ -13939,7 +13759,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Commercial
 2016,Female,25 to 34,Outside
 2016,Male,25 to 34,House
-2016,Female,Not Recorded,Commercial
 2016,Male,35 to 44,Apartment
 2016,Male,35 to 44,Apartment
 2016,Male,25 to 34,Apartment
@@ -14032,7 +13851,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,House
 2016,Female,55 to 64,Apartment
 2016,Male,18 to 24,Transit
-2016,Male,Not Recorded,Outside
 2016,Female,25 to 34,Other
 2016,Female,35 to 44,Outside
 2016,Female,18 to 24,House
@@ -14050,7 +13868,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,House
 2016,Male,45 to 54,Outside
 2016,Male,55 to 64,Other
-2016,Male,Not Recorded,Apartment
 2016,Male,18 to 24,Other
 2016,Female,25 to 34,Other
 2016,Female,35 to 44,House
@@ -14136,10 +13953,8 @@ occurred_year,sex,age_group,premises_type
 2016,Male,35 to 44,Apartment
 2016,Female,25 to 34,Apartment
 2016,Female,18 to 24,Apartment
-2016,Female,Not Recorded,Apartment
 2016,Male,18 to 24,Outside
 2016,Female,18 to 24,Apartment
-2016,Female,Not Recorded,Transit
 2016,Female,35 to 44,Outside
 2016,Female,35 to 44,Apartment
 2016,Female,18 to 24,Apartment
@@ -14244,8 +14059,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Apartment
 2016,Female,35 to 44,House
 2016,Male,35 to 44,Apartment
-2016,Male,Not Recorded,Outside
-2016,Female,Not Recorded,Apartment
 2016,Male,25 to 34,Apartment
 2016,Female,55 to 64,Outside
 2016,Male,25 to 34,House
@@ -14281,7 +14094,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Other
 2016,Female,25 to 34,Apartment
 2016,Female,18 to 24,Apartment
-2016,Female,Not Recorded,Other
 2016,Male,25 to 34,Transit
 2016,Female,35 to 44,Other
 2016,Female,35 to 44,House
@@ -14301,7 +14113,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,House
 2016,Male,18 to 24,Outside
 2016,Female,45 to 54,House
-2016,Female,Not Recorded,Commercial
 2016,Female,18 to 24,Transit
 2016,Male,35 to 44,Commercial
 2016,Male,18 to 24,Apartment
@@ -14482,7 +14293,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,65+,Apartment
 2016,Male,18 to 24,Transit
 2016,Female,25 to 34,Outside
-2016,Female,Not Recorded,Outside
 2016,Female,18 to 24,House
 2016,Female,35 to 44,Outside
 2016,Female,45 to 54,Apartment
@@ -14525,7 +14335,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Commercial
 2016,Female,65+,Apartment
 2016,Female,25 to 34,Other
-2016,Female,Not Recorded,Other
 2016,Female,65+,Apartment
 2016,Female,45 to 54,Other
 2016,Male,25 to 34,Outside
@@ -14580,7 +14389,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,65+,Other
 2016,Male,35 to 44,Apartment
 2016,Male,35 to 44,Outside
-2016,Male,Not Recorded,Outside
 2016,Female,65+,Other
 2016,Female,35 to 44,House
 2016,Female,65+,House
@@ -14634,7 +14442,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,45 to 54,Other
 2016,Male,25 to 34,Other
 2016,Male,55 to 64,Other
-2016,Female,Not Recorded,Apartment
 2016,Male,55 to 64,Apartment
 2016,Female,18 to 24,Apartment
 2016,Male,35 to 44,Outside
@@ -14664,7 +14471,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Apartment
 2016,Male,18 to 24,Apartment
 2016,Male,18 to 24,Outside
-2016,Female,Not Recorded,Apartment
 2016,Male,35 to 44,Other
 2016,Female,18 to 24,Outside
 2016,Female,65+,Apartment
@@ -14693,7 +14499,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,65+,House
 2016,Female,18 to 24,Apartment
 2016,Female,25 to 34,Apartment
-2016,Male,Not Recorded,Apartment
 2016,Female,25 to 34,House
 2016,Male,45 to 54,Other
 2016,Male,55 to 64,Apartment
@@ -14726,7 +14531,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Apartment
 2016,Male,25 to 34,Apartment
 2016,Male,65+,Other
-2016,Male,Not Recorded,Outside
 2016,Male,45 to 54,Apartment
 2016,Female,25 to 34,Other
 2016,Male,35 to 44,Commercial
@@ -14780,7 +14584,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,House
 2016,Male,18 to 24,Apartment
 2016,Female,45 to 54,House
-2016,Female,Not Recorded,Apartment
 2016,Male,25 to 34,Other
 2016,Male,55 to 64,Apartment
 2016,Female,18 to 24,Other
@@ -14959,7 +14762,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,55 to 64,Apartment
 2016,Male,25 to 34,Other
 2016,Male,55 to 64,Other
-2016,Male,Not Recorded,Outside
 2016,Male,25 to 34,Commercial
 2016,Female,35 to 44,Other
 2016,Male,18 to 24,Transit
@@ -15015,7 +14817,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Apartment
 2016,Male,18 to 24,Outside
 2016,Male,45 to 54,Outside
-2016,Male,Not Recorded,House
 2016,Male,25 to 34,Apartment
 2016,Male,18 to 24,Apartment
 2016,Male,18 to 24,Commercial
@@ -15031,7 +14832,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,25 to 34,Outside
 2016,Male,18 to 24,Outside
 2016,Male,18 to 24,House
-2016,Female,Not Recorded,Apartment
 2016,Male,18 to 24,Apartment
 2016,Female,65+,Other
 2016,Female,25 to 34,Apartment
@@ -15053,7 +14853,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,35 to 44,Other
 2016,Female,18 to 24,Apartment
 2016,Female,55 to 64,Apartment
-2016,Female,Not Recorded,Outside
 2016,Male,25 to 34,House
 2016,Female,18 to 24,Commercial
 2016,Female,25 to 34,House
@@ -15062,7 +14861,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,45 to 54,Apartment
 2016,Male,25 to 34,Other
 2016,Female,55 to 64,Apartment
-2016,Female,Not Recorded,Outside
 2016,Male,18 to 24,House
 2016,Female,25 to 34,Other
 2016,Male,55 to 64,Apartment
@@ -15371,7 +15169,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,65+,Other
 2016,Male,25 to 34,House
 2016,Male,25 to 34,Other
-2016,Male,Not Recorded,Apartment
 2016,Male,65+,Outside
 2016,Male,18 to 24,Educational
 2016,Female,45 to 54,Apartment
@@ -15506,7 +15303,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Other
 2016,Female,25 to 34,Outside
 2016,Male,35 to 44,Commercial
-2016,Female,Not Recorded,Apartment
 2016,Male,35 to 44,Apartment
 2016,Male,35 to 44,Apartment
 2016,Female,18 to 24,Educational
@@ -15625,7 +15421,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,55 to 64,Commercial
 2016,Female,55 to 64,Apartment
 2016,Male,25 to 34,Apartment
-2016,Female,Not Recorded,Apartment
 2016,Female,25 to 34,Outside
 2016,Female,35 to 44,Other
 2016,Female,35 to 44,House
@@ -15711,14 +15506,12 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Apartment
 2016,Male,45 to 54,Apartment
 2016,Male,65+,Outside
-2016,Female,Not Recorded,House
 2016,Male,25 to 34,Outside
 2016,Female,18 to 24,Commercial
 2016,Male,18 to 24,Apartment
 2016,Male,45 to 54,Outside
 2016,Female,35 to 44,Apartment
 2016,Male,25 to 34,Outside
-2016,Female,Not Recorded,Commercial
 2016,Female,35 to 44,Other
 2016,Male,25 to 34,House
 2016,Male,45 to 54,Other
@@ -15766,7 +15559,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,65+,House
 2016,Male,18 to 24,Apartment
 2016,Male,65+,Apartment
-2016,Male,Not Recorded,Apartment
 2016,Female,35 to 44,House
 2016,Female,65+,Other
 2016,Male,35 to 44,Commercial
@@ -15810,7 +15602,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Apartment
 2016,Female,55 to 64,Commercial
 2016,Female,35 to 44,Other
-2016,Female,Not Recorded,Apartment
 2016,Male,18 to 24,Apartment
 2016,Female,25 to 34,Apartment
 2016,Female,45 to 54,House
@@ -15832,7 +15623,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,18 to 24,Outside
 2016,Male,45 to 54,Apartment
 2016,Female,18 to 24,Apartment
-2016,Female,Not Recorded,Apartment
 2016,Male,18 to 24,Outside
 2016,Male,35 to 44,Apartment
 2016,Female,35 to 44,House
@@ -16148,7 +15938,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,65+,Apartment
 2016,Female,45 to 54,Outside
 2016,Female,25 to 34,Apartment
-2016,Male,Not Recorded,Transit
 2016,Male,25 to 34,Apartment
 2016,Male,25 to 34,Outside
 2016,Male,45 to 54,Outside
@@ -16188,7 +15977,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,House
 2016,Male,25 to 34,Apartment
 2016,Female,25 to 34,Apartment
-2016,Female,Not Recorded,Apartment
 2016,Female,35 to 44,Commercial
 2016,Male,55 to 64,Apartment
 2016,Female,18 to 24,Commercial
@@ -16220,7 +16008,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,25 to 34,Apartment
 2016,Male,18 to 24,Apartment
 2016,Female,35 to 44,House
-2016,Female,Not Recorded,Other
 2016,Female,35 to 44,Apartment
 2016,Female,65+,Other
 2016,Female,25 to 34,House
@@ -16306,7 +16093,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,35 to 44,Apartment
 2016,Female,65+,Apartment
 2016,Male,45 to 54,Other
-2016,Male,Not Recorded,Other
 2016,Male,65+,Outside
 2016,Female,35 to 44,Other
 2016,Female,55 to 64,Apartment
@@ -16387,7 +16173,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,45 to 54,House
 2016,Female,25 to 34,Apartment
 2016,Male,35 to 44,Outside
-2016,Male,Not Recorded,Commercial
 2016,Female,65+,House
 2016,Male,18 to 24,Outside
 2016,Male,18 to 24,House
@@ -16845,8 +16630,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,House
 2016,Female,25 to 34,House
 2016,Male,65+,Outside
-2016,Male,Not Recorded,Apartment
-2016,Female,Not Recorded,Other
 2016,Female,25 to 34,House
 2016,Male,65+,Other
 2016,Male,25 to 34,Apartment
@@ -17116,7 +16899,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,45 to 54,Outside
 2016,Female,35 to 44,Apartment
 2016,Male,18 to 24,House
-2016,Female,Not Recorded,Commercial
 2016,Male,45 to 54,Outside
 2016,Male,18 to 24,Apartment
 2016,Female,55 to 64,Outside
@@ -17127,7 +16909,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,45 to 54,Apartment
 2016,Female,55 to 64,Apartment
 2016,Female,25 to 34,Apartment
-2016,Female,Not Recorded,Commercial
 2016,Female,45 to 54,Apartment
 2016,Female,25 to 34,House
 2016,Female,25 to 34,Apartment
@@ -17137,7 +16918,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Commercial
 2016,Male,25 to 34,Outside
 2016,Male,25 to 34,Other
-2016,Female,Not Recorded,House
 2016,Male,55 to 64,House
 2016,Female,18 to 24,Outside
 2016,Female,25 to 34,House
@@ -17157,7 +16937,6 @@ occurred_year,sex,age_group,premises_type
 2016,Female,45 to 54,Apartment
 2016,Female,45 to 54,Apartment
 2016,Male,18 to 24,Apartment
-2016,Female,Not Recorded,Outside
 2016,Male,25 to 34,Outside
 2016,Male,25 to 34,Apartment
 2016,Male,65+,Commercial
@@ -17269,8 +17048,6 @@ occurred_year,sex,age_group,premises_type
 2016,Male,18 to 24,Apartment
 2016,Male,45 to 54,House
 2016,Male,35 to 44,Outside
-2016,Female,Not Recorded,Outside
-2016,Female,Not Recorded,Outside
 2016,Female,25 to 34,Outside
 2016,Male,25 to 34,Apartment
 2016,Female,18 to 24,Outside
@@ -17404,7 +17181,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,18 to 24,Commercial
 2017,Male,35 to 44,Other
 2017,Female,25 to 34,Other
-2017,Female,Not Recorded,House
 2017,Female,45 to 54,Apartment
 2017,Male,35 to 44,Other
 2017,Female,18 to 24,House
@@ -17552,7 +17328,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,55 to 64,Apartment
 2017,Male,45 to 54,Apartment
 2017,Female,25 to 34,House
-2017,Female,Not Recorded,Apartment
 2017,Female,25 to 34,Apartment
 2017,Male,25 to 34,Commercial
 2017,Male,45 to 54,Other
@@ -17708,7 +17483,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,35 to 44,Apartment
 2017,Female,55 to 64,Apartment
 2017,Male,18 to 24,Outside
-2017,Male,Not Recorded,Outside
 2017,Male,25 to 34,Outside
 2017,Male,45 to 54,Apartment
 2017,Female,25 to 34,Apartment
@@ -17876,7 +17650,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,35 to 44,House
 2017,Female,65+,House
 2017,Female,25 to 34,Apartment
-2017,Male,Not Recorded,Apartment
 2017,Male,65+,House
 2017,Male,25 to 34,Transit
 2017,Male,18 to 24,Other
@@ -17913,7 +17686,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,45 to 54,Outside
 2017,Female,25 to 34,Outside
 2017,Male,25 to 34,Other
-2017,Male,Not Recorded,Outside
 2017,Male,35 to 44,Apartment
 2017,Male,45 to 54,Outside
 2017,Female,35 to 44,Other
@@ -17960,7 +17732,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,Other
 2017,Male,45 to 54,Outside
 2017,Female,18 to 24,Apartment
-2017,Female,Not Recorded,Apartment
 2017,Male,45 to 54,Apartment
 2017,Male,18 to 24,Commercial
 2017,Female,55 to 64,House
@@ -18140,7 +17911,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,Outside
 2017,Male,18 to 24,Apartment
 2017,Female,18 to 24,Other
-2017,Female,Not Recorded,Other
 2017,Male,25 to 34,House
 2017,Male,35 to 44,Apartment
 2017,Male,45 to 54,Apartment
@@ -18655,7 +18425,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,Other
 2017,Male,45 to 54,Apartment
 2017,Male,25 to 34,Apartment
-2017,Male,Not Recorded,Other
 2017,Female,18 to 24,Apartment
 2017,Female,25 to 34,Apartment
 2017,Male,45 to 54,House
@@ -18747,13 +18516,11 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,Apartment
 2017,Female,25 to 34,House
 2017,Female,55 to 64,Apartment
-2017,Male,Not Recorded,Outside
 2017,Female,45 to 54,Apartment
 2017,Male,65+,House
 2017,Male,65+,Other
 2017,Male,25 to 34,Apartment
 2017,Male,25 to 34,Outside
-2017,Male,Not Recorded,Apartment
 2017,Male,18 to 24,House
 2017,Female,18 to 24,Apartment
 2017,Male,45 to 54,Apartment
@@ -18768,7 +18535,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,House
 2017,Female,18 to 24,House
 2017,Female,18 to 24,Apartment
-2017,Male,Not Recorded,Transit
 2017,Female,18 to 24,Apartment
 2017,Male,25 to 34,Transit
 2017,Male,35 to 44,Other
@@ -18808,7 +18574,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,35 to 44,Outside
 2017,Female,25 to 34,Apartment
 2017,Male,25 to 34,Outside
-2017,Male,Not Recorded,Apartment
 2017,Male,45 to 54,Outside
 2017,Female,65+,Apartment
 2017,Male,45 to 54,House
@@ -18830,7 +18595,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,35 to 44,Other
 2017,Male,65+,Apartment
 2017,Male,25 to 34,Apartment
-2017,Female,Not Recorded,Commercial
 2017,Female,25 to 34,Apartment
 2017,Male,25 to 34,House
 2017,Female,25 to 34,Commercial
@@ -18975,7 +18739,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,25 to 34,Outside
 2017,Male,45 to 54,Commercial
 2017,Male,25 to 34,Other
-2017,Male,Not Recorded,Commercial
 2017,Male,18 to 24,Other
 2017,Female,65+,House
 2017,Female,35 to 44,Apartment
@@ -19003,7 +18766,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,55 to 64,Other
 2017,Female,35 to 44,Apartment
 2017,Male,55 to 64,Other
-2017,Male,Not Recorded,Apartment
 2017,Male,35 to 44,Apartment
 2017,Male,45 to 54,House
 2017,Female,18 to 24,Apartment
@@ -19086,7 +18848,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,25 to 34,House
 2017,Female,18 to 24,House
 2017,Female,55 to 64,House
-2017,Male,Not Recorded,House
 2017,Female,25 to 34,Transit
 2017,Male,25 to 34,Apartment
 2017,Male,18 to 24,House
@@ -19158,7 +18919,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,35 to 44,Apartment
 2017,Female,25 to 34,Apartment
 2017,Male,35 to 44,House
-2017,Male,Not Recorded,Apartment
 2017,Female,35 to 44,Apartment
 2017,Male,18 to 24,Apartment
 2017,Female,25 to 34,Apartment
@@ -19266,7 +19026,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,55 to 64,Commercial
 2017,Female,55 to 64,Other
 2017,Male,35 to 44,House
-2017,Male,Not Recorded,Apartment
 2017,Female,25 to 34,Commercial
 2017,Male,45 to 54,Commercial
 2017,Female,55 to 64,Other
@@ -19305,7 +19064,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,45 to 54,House
 2017,Female,18 to 24,Educational
 2017,Female,25 to 34,Outside
-2017,Male,Not Recorded,House
 2017,Female,25 to 34,Apartment
 2017,Male,25 to 34,Outside
 2017,Male,18 to 24,Apartment
@@ -19316,7 +19074,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,Apartment
 2017,Female,35 to 44,Apartment
 2017,Male,25 to 34,Commercial
-2017,Male,Not Recorded,Apartment
 2017,Female,55 to 64,Apartment
 2017,Female,55 to 64,House
 2017,Female,18 to 24,Educational
@@ -19487,7 +19244,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,Commercial
 2017,Female,35 to 44,Commercial
 2017,Male,35 to 44,Educational
-2017,Male,Not Recorded,Apartment
 2017,Male,18 to 24,Apartment
 2017,Female,35 to 44,House
 2017,Male,25 to 34,Apartment
@@ -19607,11 +19363,9 @@ occurred_year,sex,age_group,premises_type
 2017,Male,45 to 54,Apartment
 2017,Male,25 to 34,Apartment
 2017,Female,35 to 44,House
-2017,Female,Not Recorded,Apartment
 2017,Female,18 to 24,Apartment
 2017,Male,45 to 54,Apartment
 2017,Male,18 to 24,Outside
-2017,Male,Not Recorded,House
 2017,Male,65+,Apartment
 2017,Male,25 to 34,Other
 2017,Male,25 to 34,Commercial
@@ -19677,7 +19431,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,18 to 24,Other
 2017,Male,25 to 34,Other
 2017,Female,18 to 24,Outside
-2017,Male,Not Recorded,Outside
 2017,Male,45 to 54,Other
 2017,Female,18 to 24,Other
 2017,Female,18 to 24,House
@@ -19717,7 +19470,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,35 to 44,Outside
 2017,Female,35 to 44,Apartment
 2017,Male,18 to 24,Apartment
-2017,Female,Not Recorded,Apartment
 2017,Female,55 to 64,Other
 2017,Female,35 to 44,Apartment
 2017,Male,35 to 44,Other
@@ -19756,7 +19508,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,Other
 2017,Female,25 to 34,House
 2017,Male,25 to 34,Other
-2017,Male,Not Recorded,Other
 2017,Female,18 to 24,Apartment
 2017,Female,18 to 24,Apartment
 2017,Female,65+,Apartment
@@ -19802,7 +19553,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,65+,House
 2017,Female,25 to 34,House
 2017,Male,45 to 54,Outside
-2017,Male,Not Recorded,Outside
 2017,Male,35 to 44,Apartment
 2017,Male,45 to 54,Outside
 2017,Male,25 to 34,Apartment
@@ -19878,13 +19628,11 @@ occurred_year,sex,age_group,premises_type
 2017,Male,55 to 64,Apartment
 2017,Female,35 to 44,Apartment
 2017,Female,25 to 34,Commercial
-2017,Not Recorded,18 to 24,House
 2017,Female,25 to 34,Outside
 2017,Male,25 to 34,Other
 2017,Female,25 to 34,Outside
 2017,Male,25 to 34,House
 2017,Female,35 to 44,House
-2017,Female,Not Recorded,Apartment
 2017,Female,35 to 44,Apartment
 2017,Male,18 to 24,Other
 2017,Female,25 to 34,Outside
@@ -20070,7 +19818,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,25 to 34,Apartment
 2017,Male,65+,Other
 2017,Male,18 to 24,Outside
-2017,Female,Not Recorded,House
 2017,Male,25 to 34,House
 2017,Female,18 to 24,House
 2017,Male,18 to 24,Outside
@@ -20103,7 +19850,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,Outside
 2017,Male,18 to 24,Educational
 2017,Male,55 to 64,Other
-2017,Female,Not Recorded,Transit
 2017,Female,18 to 24,Commercial
 2017,Male,55 to 64,Other
 2017,Male,25 to 34,Apartment
@@ -20149,7 +19895,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,45 to 54,Outside
 2017,Male,55 to 64,Apartment
 2017,Male,18 to 24,Apartment
-2017,Female,Not Recorded,House
 2017,Female,18 to 24,Educational
 2017,Male,55 to 64,Apartment
 2017,Female,18 to 24,House
@@ -20167,7 +19912,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,45 to 54,Apartment
 2017,Female,35 to 44,House
 2017,Female,55 to 64,Apartment
-2017,Female,Not Recorded,Other
 2017,Female,25 to 34,Apartment
 2017,Female,65+,Apartment
 2017,Male,18 to 24,Apartment
@@ -20364,7 +20108,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,Outside
 2017,Female,25 to 34,House
 2017,Male,55 to 64,Other
-2017,Male,Not Recorded,Outside
 2017,Male,25 to 34,House
 2017,Female,45 to 54,House
 2017,Male,25 to 34,Other
@@ -20424,7 +20167,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,House
 2017,Male,25 to 34,Other
 2017,Male,25 to 34,Apartment
-2017,Female,Not Recorded,Apartment
 2017,Male,18 to 24,House
 2017,Female,45 to 54,Apartment
 2017,Male,18 to 24,Other
@@ -20487,7 +20229,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,65+,Apartment
 2017,Male,25 to 34,Apartment
 2017,Male,25 to 34,Apartment
-2017,Female,Not Recorded,Outside
 2017,Female,18 to 24,House
 2017,Female,18 to 24,Commercial
 2017,Female,55 to 64,Other
@@ -20532,7 +20273,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,35 to 44,Apartment
 2017,Male,18 to 24,Apartment
 2017,Male,25 to 34,Other
-2017,Male,Not Recorded,Other
 2017,Male,25 to 34,House
 2017,Female,55 to 64,Apartment
 2017,Male,45 to 54,Other
@@ -20605,7 +20345,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,House
 2017,Female,35 to 44,Other
 2017,Female,45 to 54,House
-2017,Male,Not Recorded,Apartment
 2017,Male,45 to 54,Commercial
 2017,Female,25 to 34,Other
 2017,Male,25 to 34,House
@@ -20838,7 +20577,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,Other
 2017,Female,18 to 24,House
 2017,Female,55 to 64,Apartment
-2017,Male,Not Recorded,House
 2017,Female,18 to 24,Apartment
 2017,Male,25 to 34,Apartment
 2017,Female,25 to 34,House
@@ -20934,7 +20672,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,Apartment
 2017,Male,35 to 44,Outside
 2017,Male,25 to 34,Apartment
-2017,Female,Not Recorded,House
 2017,Female,45 to 54,Apartment
 2017,Male,35 to 44,Apartment
 2017,Male,25 to 34,Outside
@@ -20945,8 +20682,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,Apartment
 2017,Female,25 to 34,Apartment
 2017,Male,55 to 64,Apartment
-2017,Male,Not Recorded,Apartment
-2017,Female,Not Recorded,House
 2017,Male,45 to 54,Apartment
 2017,Female,35 to 44,Apartment
 2017,Male,35 to 44,Outside
@@ -21038,16 +20773,13 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,House
 2017,Female,25 to 34,Other
 2017,Female,45 to 54,Apartment
-2017,Female,Not Recorded,Transit
 2017,Male,18 to 24,Apartment
 2017,Male,45 to 54,Other
-2017,Male,Not Recorded,Outside
 2017,Male,65+,Outside
 2017,Male,18 to 24,Apartment
 2017,Female,65+,Apartment
 2017,Male,25 to 34,House
 2017,Female,35 to 44,Other
-2017,Female,Not Recorded,Outside
 2017,Female,18 to 24,Apartment
 2017,Female,25 to 34,Outside
 2017,Male,35 to 44,Apartment
@@ -21094,7 +20826,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,35 to 44,House
 2017,Female,25 to 34,House
 2017,Male,45 to 54,Outside
-2017,Male,Not Recorded,Commercial
 2017,Male,18 to 24,Apartment
 2017,Male,35 to 44,Other
 2017,Male,35 to 44,Other
@@ -21197,7 +20928,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,65+,House
 2017,Female,35 to 44,Outside
 2017,Female,45 to 54,House
-2017,Female,Not Recorded,Apartment
 2017,Male,35 to 44,Apartment
 2017,Male,25 to 34,House
 2017,Female,45 to 54,House
@@ -21305,7 +21035,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,Apartment
 2017,Male,25 to 34,Transit
 2017,Female,45 to 54,Apartment
-2017,Female,Not Recorded,Transit
 2017,Male,25 to 34,Commercial
 2017,Male,25 to 34,Other
 2017,Male,25 to 34,House
@@ -21431,7 +21160,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,45 to 54,Apartment
 2017,Female,35 to 44,House
 2017,Female,18 to 24,House
-2017,Female,Not Recorded,Apartment
 2017,Female,35 to 44,Other
 2017,Female,18 to 24,Other
 2017,Male,55 to 64,Other
@@ -21490,7 +21218,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,35 to 44,Other
 2017,Male,65+,Apartment
 2017,Female,35 to 44,Apartment
-2017,Female,Not Recorded,Outside
 2017,Female,55 to 64,Apartment
 2017,Female,45 to 54,Apartment
 2017,Male,25 to 34,Outside
@@ -21604,7 +21331,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,Outside
 2017,Female,35 to 44,Apartment
 2017,Male,45 to 54,House
-2017,Female,Not Recorded,Apartment
 2017,Male,35 to 44,Other
 2017,Male,45 to 54,Outside
 2017,Male,65+,Apartment
@@ -21641,11 +21367,9 @@ occurred_year,sex,age_group,premises_type
 2017,Male,35 to 44,Apartment
 2017,Female,25 to 34,Apartment
 2017,Male,35 to 44,Outside
-2017,Male,Not Recorded,Commercial
 2017,Male,18 to 24,House
 2017,Male,18 to 24,House
 2017,Male,18 to 24,House
-2017,Male,Not Recorded,Commercial
 2017,Male,18 to 24,Apartment
 2017,Male,18 to 24,Outside
 2017,Male,18 to 24,Other
@@ -21711,7 +21435,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,45 to 54,House
 2017,Male,35 to 44,Apartment
 2017,Male,25 to 34,Outside
-2017,Female,Not Recorded,Apartment
 2017,Male,45 to 54,House
 2017,Female,65+,Apartment
 2017,Female,35 to 44,Apartment
@@ -21751,7 +21474,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,45 to 54,Apartment
 2017,Male,25 to 34,Outside
 2017,Female,35 to 44,House
-2017,Not Recorded,65+,Other
 2017,Female,18 to 24,Apartment
 2017,Male,65+,Apartment
 2017,Male,35 to 44,Commercial
@@ -21786,7 +21508,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,Other
 2017,Female,18 to 24,Apartment
 2017,Female,55 to 64,Apartment
-2017,Male,Not Recorded,Apartment
 2017,Male,25 to 34,Other
 2017,Male,35 to 44,Other
 2017,Male,18 to 24,Outside
@@ -22012,7 +21733,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,45 to 54,Outside
 2017,Male,18 to 24,House
 2017,Male,55 to 64,Apartment
-2017,Male,Not Recorded,Apartment
 2017,Male,35 to 44,Transit
 2017,Male,55 to 64,Apartment
 2017,Male,35 to 44,Commercial
@@ -22135,7 +21855,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,45 to 54,Apartment
 2017,Female,35 to 44,Apartment
 2017,Male,35 to 44,Commercial
-2017,Female,Not Recorded,Transit
 2017,Female,25 to 34,Apartment
 2017,Male,35 to 44,Outside
 2017,Male,25 to 34,Apartment
@@ -22305,7 +22024,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,65+,Other
 2017,Male,18 to 24,House
 2017,Female,25 to 34,Apartment
-2017,Male,Not Recorded,Outside
 2017,Female,35 to 44,House
 2017,Male,35 to 44,House
 2017,Male,25 to 34,Apartment
@@ -22325,7 +22043,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,25 to 34,Outside
 2017,Male,18 to 24,Commercial
 2017,Female,18 to 24,House
-2017,Female,Not Recorded,House
 2017,Female,25 to 34,Apartment
 2017,Female,18 to 24,Apartment
 2017,Female,65+,Apartment
@@ -22368,8 +22085,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,25 to 34,Outside
 2017,Female,55 to 64,House
 2017,Male,55 to 64,Outside
-2017,Male,Not Recorded,House
-2017,Male,Not Recorded,Apartment
 2017,Female,55 to 64,Apartment
 2017,Female,35 to 44,House
 2017,Male,55 to 64,Apartment
@@ -22678,7 +22393,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,45 to 54,House
 2017,Male,25 to 34,Other
 2017,Female,65+,Apartment
-2017,Female,Not Recorded,Other
 2017,Female,35 to 44,Apartment
 2017,Male,65+,Apartment
 2017,Female,25 to 34,Apartment
@@ -22947,7 +22661,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,45 to 54,Other
 2017,Female,45 to 54,Other
 2017,Female,55 to 64,House
-2017,Male,Not Recorded,House
 2017,Female,35 to 44,Outside
 2017,Male,25 to 34,House
 2017,Male,55 to 64,Apartment
@@ -23049,7 +22762,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,45 to 54,Apartment
 2017,Female,25 to 34,Outside
 2017,Female,45 to 54,House
-2017,Male,Not Recorded,Apartment
 2017,Female,25 to 34,Apartment
 2017,Female,45 to 54,House
 2017,Male,65+,House
@@ -23074,7 +22786,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,65+,Other
 2017,Male,25 to 34,Outside
 2017,Female,25 to 34,House
-2017,Female,Not Recorded,Other
 2017,Male,18 to 24,House
 2017,Male,45 to 54,Outside
 2017,Female,25 to 34,Commercial
@@ -23082,7 +22793,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,35 to 44,Transit
 2017,Male,45 to 54,Outside
 2017,Male,25 to 34,Outside
-2017,Male,Not Recorded,House
 2017,Male,55 to 64,House
 2017,Male,25 to 34,House
 2017,Male,45 to 54,Educational
@@ -23181,7 +22891,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,55 to 64,Apartment
 2017,Male,65+,Other
 2017,Male,25 to 34,Other
-2017,Male,Not Recorded,Outside
 2017,Female,45 to 54,Apartment
 2017,Female,45 to 54,Apartment
 2017,Male,45 to 54,Apartment
@@ -23595,7 +23304,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,House
 2017,Male,55 to 64,House
 2017,Female,18 to 24,House
-2017,Female,Not Recorded,Apartment
 2017,Male,25 to 34,Apartment
 2017,Male,18 to 24,Outside
 2017,Male,35 to 44,Other
@@ -23660,7 +23368,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,65+,Other
 2017,Female,55 to 64,Outside
 2017,Female,55 to 64,Apartment
-2017,Female,Not Recorded,Outside
 2017,Female,35 to 44,Outside
 2017,Female,25 to 34,Outside
 2017,Female,18 to 24,House
@@ -23779,7 +23486,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,25 to 34,Other
 2017,Female,18 to 24,Outside
 2017,Male,25 to 34,Apartment
-2017,Male,Not Recorded,Outside
 2017,Female,18 to 24,Apartment
 2017,Female,18 to 24,House
 2017,Male,18 to 24,Commercial
@@ -23796,7 +23502,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,18 to 24,Apartment
 2017,Male,25 to 34,Outside
 2017,Male,18 to 24,Outside
-2017,Not Recorded,25 to 34,Apartment
 2017,Male,45 to 54,Other
 2017,Female,25 to 34,Apartment
 2017,Male,55 to 64,Apartment
@@ -23863,7 +23568,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,35 to 44,Apartment
 2017,Female,18 to 24,Outside
 2017,Male,18 to 24,Other
-2017,Female,Not Recorded,Outside
 2017,Male,25 to 34,Transit
 2017,Female,55 to 64,Apartment
 2017,Female,45 to 54,Apartment
@@ -24036,7 +23740,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,25 to 34,Outside
 2017,Male,25 to 34,Other
 2017,Female,18 to 24,Apartment
-2017,Male,Not Recorded,Outside
 2017,Male,18 to 24,Outside
 2017,Male,35 to 44,Apartment
 2017,Male,18 to 24,House
@@ -24096,7 +23799,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,55 to 64,House
 2017,Female,45 to 54,House
 2017,Male,18 to 24,House
-2017,Female,Not Recorded,Outside
 2017,Female,65+,House
 2017,Male,35 to 44,Apartment
 2017,Male,65+,Apartment
@@ -24147,7 +23849,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,25 to 34,House
 2017,Female,25 to 34,Other
 2017,Female,45 to 54,Other
-2017,Female,Not Recorded,Commercial
 2017,Male,25 to 34,Other
 2017,Male,35 to 44,Other
 2017,Male,35 to 44,House
@@ -24343,7 +24044,6 @@ occurred_year,sex,age_group,premises_type
 2017,Female,55 to 64,Outside
 2017,Female,25 to 34,Apartment
 2017,Male,25 to 34,Outside
-2017,Male,Not Recorded,Educational
 2017,Male,18 to 24,Outside
 2017,Male,45 to 54,Outside
 2017,Female,45 to 54,Commercial
@@ -24358,7 +24058,6 @@ occurred_year,sex,age_group,premises_type
 2017,Male,18 to 24,Apartment
 2017,Male,55 to 64,Outside
 2017,Female,65+,Apartment
-2017,Male,Not Recorded,Outside
 2017,Female,45 to 54,Apartment
 2017,Male,35 to 44,Outside
 2017,Female,45 to 54,Apartment
