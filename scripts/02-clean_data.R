@@ -42,7 +42,7 @@ mental_health_data_cleaned =
 mental_health_data_cleaned <-
   mental_health_data_cleaned |>
   rename(
-    occured_year = occ_year,
+    occurred_year = occ_year,
     sex = sex,
     age_group = age_cohort,
     premises_type = premises_type
@@ -53,3 +53,5 @@ mental_health_data_cleaned <-
 # save the cleaned csv file
 write_csv(mental_health_data_cleaned, "inputs/data/cleaned_data.csv")
 ```
+
+## 
