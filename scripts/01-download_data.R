@@ -6,13 +6,6 @@ Contact: maryc.cheng@mail.utoronto.ca
 ---
 
 ```{r}
-# Install required packages
-install.packages("tidyverse")
-install.packages("dplyr")
-install.packages("opendatatoronto")
-```
-
-```{r}
 # workspace setup
 library(tidyverse)
 library(dplyr)
