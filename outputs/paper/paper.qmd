@@ -1,5 +1,5 @@
 ---
-title: "Data Analysis of Mental Health Situation from 2014 to 2023 in Toronto"
+title: "Data Analysis of Mental Health Situation from 2010 to 2017 in Toronto"
 title-block-banner: true
 author: "Mary Cheng"
 thanks: "Code and data are avaliable at:https://github.com/marycx/Analysis-of-Mental-Health-Situation-from-2014-to-2023-in-Toronto.git"
@@ -13,18 +13,136 @@ number-sections: true
 ```{r}
 #| message: false
 #| echo: false
-
 #### Workspace set-up ####
-install.packages("tidyverse")
-install.packages("knitr")
-install.packages("kableExtra")
-install.packages("here")
-install.packages("ggbeeswarm")
 library(tidyverse) # a collection of data-related packages
 library(knitr) # for kable
 library(kableExtra)
 library(here)
 library(ggbeeswarm)
+```
+
+```{r}
+# load data
+mental_health_data = read_csv(
+  file = here("inputs/data/cleaned_data.csv"),
+  show_col_types = FALSE
+)
+```
+
+```{## Results}
+```
+
+```{r}
+# Show a piece of sample data 
+#| message: false
+#| echo: false
+#| label: tbl_sample_cleaned_data
+#| tbl_cap: Sample of cleaned mental health data
+
+mental_health_data |>
+  slice(1:10) |>
+  kable(
+    col.names = c("Occurred Year", "Sex", "Age Group", "Premises Type"),
+    digits = 1,
+    booktabs = TRUE,
+    linesep = "",
+    align = c("c", "c", "c", "c")
+  )
+
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| label: tbl-sum_occurences
+#| tbl-cap: Number of mental health apprehensions in Toronto each year from 2015-2017
+
+mental_health_data |>
+  select(occurred_year) |>
+  count(occurred_year) |>
+  kable(
+    col.names = c("Occurred Year", "Count"),
+    booktabs = TRUE,
+    align = c("c", "c")
+  )
+```
+
+```{r}
+# Analyze the relationship between mental health apprehension and gender
+#| echo: false
+#| message: false
+#| label: fig-sex_year
+#| fig-cap: Number of male and female mental health apprehensions in Toronto
+
+mental_health_data |>
+  ggplot(mapping = aes(x = occurred_year, fill = sex)) +
+  geom_bar(position = "dodge2") +
+  labs(x = "Occurred Year", y = "Number of Apprehensions", fill = "Sex") +
+  theme(legend.position = "bottom")
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| label: tbl-sum_occurences
+#| tbl-cap: Total number of mental health apprenhension in age groups in Toronto from 2015 - 0217
+
+mental_health_data |>
+  select(age_group) |>
+  count(age_group) |>
+  kable(
+    col.names = c("Age Group", "Count"),
+    booktabs = TRUE,
+    align = c("c", "c")
+  )
+```
+
+```{r}
+# Analyze the relationship between mental health apprehension and age groups in total
+#| echo: false
+#| message: false
+#| label: fig-age_year
+#| fig-cap: Total number of mental health apprenhension in age groups
+
+mental_health_data |> 
+  count(age_group) |> 
+  ggplot(mapping = aes(x = age_group, y = n)) +
+  geom_col() +
+  theme_minimal() +
+  labs(x = "Age group", y = "Number of mental health apprenhensions")
+```
+
+```{r}
+# Analyze the relationship between mental health apprehension and age groups in each year
+#| echo: false
+#| message: false
+#| label: fig-age_year_each
+#| fig-cap: Number of mental health apprenhension in age groups in each year
+
+mental_health_data |>
+  ggplot(mapping = aes(x = occurred_year, fill = age_group)) +
+  geom_bar(position = "dodge2") +
+  labs(x = "Year", y = "Number of mental health apprenhension", fill = "Age group") +
+  theme(legend.position = "bottom")
+```
+
+```{r}
+# Analyze the relationship between mental health apprehension and premises type in each year
+#| echo: false
+#| message: false
+#| label: fig-premise_type
+#| fig-cap: Percentage of mental helath apprehensions by premises type
+
+mental_health_data |>
+  count(premises_type) |>
+  ggplot(mapping = aes(x="",y = n, fill = premises_type)) +
+  geom_bar(stat = "identity", width = 1, color = "white") +
+  coord_polar(theta = "y") +
+  theme_minimal() +
+  labs(x = "", y = "Percentage of mental health apprenhension in each premises type", fill = "Age group") +
+  geom_text(aes(label = sprintf("%.1f%%", n/nrow(mental_health_data)*100)),
+            position = position_stack(vjust = 0.5), color = "white", size = 3)
+
 ```
 
 ## 
