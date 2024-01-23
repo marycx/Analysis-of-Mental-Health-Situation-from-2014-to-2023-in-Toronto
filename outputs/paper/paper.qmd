@@ -1,9 +1,9 @@
 ---
 title: "Data Analysis of Mental Health Trends from 2014 to 2023 in Toronto"
-title-block-banner: true
 author: "Mary Cheng"
 thanks: "Code and data are avaliable at:https://github.com/marycx/Analysis-of-Mental-Health-Situation-from-2014-to-2023-in-Toronto.git"
-date: "`r format(Sys.time(), '%d %B %Y')`"
+date: today
+date-format: long
 abstract: "In today's society, acknowledging the importance of mental health and the growing awareness surrounding it has increased more and more. This paper explores the 'Mental Health Act (MHA) Apprehension' data from opendatatoronto, the study analyzes trends in mental health situations and their correlation with those factors. Findings indicate there are higher MHA apprehensions among males. Also, the age group '25 to 34' shows the highest occurrences of MHA apprehensions. Additionally, individuals living in apartments are more likely to face MHA apprehension. The paper provides insights into the relationships among mental health conditions and age, gender, and living arrangements, offering a concise overview of the complex dynamics."
 format: pdf
 toc: true
