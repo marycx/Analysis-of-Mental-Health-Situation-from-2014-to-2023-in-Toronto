@@ -4,16 +4,15 @@ title-block-banner: true
 author: "Mary Cheng"
 thanks: "Code and data are avaliable at:https://github.com/marycx/Analysis-of-Mental-Health-Situation-from-2014-to-2023-in-Toronto.git"
 date: "`r format(Sys.time(), '%d %B %Y')`"
-abstract: "something here"
+abstract: "In today's society, acknowledging the importance of mental health and the growing awareness surrounding it has increased more and more. This paper explores the 'Mental Health Act (MHA) Apprehension' data from opendatatoronto, the study analyzes trends in mental health situations and their correlation with those factors. Findings indicate there are higher MHA apprehensions among males. Also, the age group '25 to 34' shows the highest occurrences of MHA apprehensions. Additionally, individuals living in apartments are more likely to face MHA apprehension. The paper provides insights into the relationships among mental health conditions and age, gender, and living arrangements, offering a concise overview of the complex dynamics."
 format: pdf
 toc: true
-number-sections: true
 bibliography: references.bib
 ---
 
 ## Introduction
 
-Mental health is an important and essential aspect of an individual's well-being. It plays a key role in shaping individuals' lives and decisions. Good mental health of the community also has a significant influence on the development and safety of society. In [@citesociety], it states that approximately 25% of the worldwide population is affected by mental health issues at some point in their life. However, a study has estimated that less than 40 percent of individuals with mental health illnesses have received consistent mental health support and treatment throughout the years in the United States[@citeMHAeffect]. In recent years, there has been a growing recognition of the importance of mental health [@citeLiteracy]; individuals have higher mental health literacy and understanding about the importance and necessity of mental health treatment.
+Mental health is an essential aspect of an individual's well-being. It plays a key role in shaping individuals' lives and decisions. Good mental health of the community also has a significant influence on the development and safety of society. In [@citesociety], it states that approximately 25% of the worldwide population is affected by mental health issues at some point in their life. However, a study has estimated that less than 40 percent of individuals with mental health illnesses have received consistent mental health support and treatment throughout the years in the United States[@citeMHAeffect]. In recent years, there has been a growing recognition of the importance of mental health [@citeLiteracy]; individuals have higher mental health literacy and understanding about the importance and necessity of mental health treatment.
 
 In Ontario, Mental Health Act (MHA)[@citeMHA], which was established in 1967, provides assistance to people with mental health concerns. The current version is published on Dec. 21st, 2015. It governs the delivery of mental health services and the protection of individuals' rights in the context of mental health care. It guarantees the access to care for individuals who may be at risk of harm to themselves or others due to their mental health conditions. All of these upsides that MHA brings strongly help the people in need: this paper[@citeMHAeffect] discusses how MHA helps creating a trend toward an increasing rate of civil commitments in taking the treatment for mental health conditions.
 
@@ -21,20 +20,19 @@ In this paper, we use R[@citeR] to analyze a dataset from opendatatoronto[@citeO
 
 The remainder of this paper is structured as follows: Section 2 first discusses the data including data pre-processing and data overview, then presents the results, showing the relationships between mental health and demographic factors such as age, sex, and premise type.
 
-```{r}
-#| message: false
-#| echo: false
+```{r setup, include=FALSE}
+#| message: FALSE
+#| echo: FALSE
 # Workspace set-up
+knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse) # a collection of data-related packages
 library(knitr) # for kable
-library(kableExtra)
 library(here)
-library(ggbeeswarm)
 ```
 
 ```{r}
-#| message: false
-#| echo: false
+#| message: FALSE
+#| echo: FALSE
 # load data
 mental_health_data = read_csv(
   file = here("inputs/data/cleaned_data.csv"),
@@ -46,7 +44,7 @@ mental_health_data = read_csv(
 
 The data used in this paper has been sourced from the City of Toronto's open data portal (referenced). Specifically, the dataset is named "Mental Health Act Apprehensions," including all Mental Health Act (MHA) Apprehensions pursuant to the Mental Health Act (Reference). This report incorporates information related to different gender categories, diverse age groups, and types of premises. The objective is to employ these data for examining the correlations among these variables and the occurrences of MHA apprehensions. One limitation worth noting is that each unique data entry should not be interpreted as the apprehension of a distinct individual, as an individual may be apprehended multiple times. However, this does not impact the analysis because the focus of the report is on the occurrences rather than the unique individuals involved.
 
-Data is pre-processed, analyzed, and explored using programming language R (REf), using \[packages...\].
+Data is cleaned and analyzed using open-source statistically programming language R[@citeR], using packages from tidyverse[@citeTidyverse], dplyr[@citeDplyr], knitr[@citeKnitr], tibble[@citeTibble], and janitor[@citeJanitor].
 
 ### Data Pre-processing
 
@@ -63,17 +61,17 @@ Moreover, there are certain entries containing the value "Not Recorded," which a
 
 This section presents an overview of the dataset following the selection of relevant variables and the cleaning process.
 
-Table @tbl_sample_cleaned_data provides some sample data entries of the refined dataset. It can be observed that the post-processing data comprises four columns: "Occurred Year," "Sex," "Age Group," and "Premises Type."
+@tbl-sampledata provides some sample data entries in the refined dataset. It can be observed that the post-processing data comprises four columns: "Occurred Year," "Sex," "Age Group," and "Premises Type."
 
-The visualization in Figure @fig-total and Table @tbl-sum_occurences_new illustrates a gradual rise in the occurrences of MHA apprehensions from 2014 to 2021, peaking in 2021. Moreover, a slight decrease is observed from 2021 to 2023.
+The visualization in @fig-total and @tbl-sum_occurences_new illustrates a gradual rise in the occurrences of MHA apprehensions from 2014 to 2021, peaking in 2021. Moreover, a slight decrease is observed from 2021 to 2023.
 
 ```{r}
-# Show a piece of sample data
-#| message: false
-#| echo: false
-#| label: tbl_sample_cleaned_data
-#| tbl_cap: Sample of cleaned mental health data
+#| echo: FALSE
+#| message: FALSE
+#| label: tbl-sampledata
+#| tbl-cap: Sample of cleaned mental health data
 
+# Show a piece of sample data
 mental_health_data |>
   slice(1:10) |>
   kable(
@@ -83,15 +81,15 @@ mental_health_data |>
     linesep = "",
     align = c("c", "c", "c", "c")
   )
-
 ```
 
 ```{r}
-#| echo: false
-#| message: false
+#| echo: FALSE
+#| message: FALSE
 #| label: tbl-sum_occurences_new
-#| tbl-cap: Number of MHA apprehensions in Toronto each year from 2015-2017
+#| tbl-cap: Number of MHA apprehensions in Toronto each year from 2014-2023
 
+# count the sum in each year
 mental_health_data |>
   select(occurred_year) |>
   count(occurred_year) |>
@@ -103,32 +101,35 @@ mental_health_data |>
 ```
 
 ```{r}
-# Total trend
-#| echo: false
-#| message: false
+#| echo: FALSE
+#| message: FALSE
 #| label: fig-total
-#| fig-cap: Total number of MHA apprehensions fron 2014 to 2023
-#| 
+#| fig-cap: Total number of MHA apprehensions in each year
+
+# Total trend
 mental_health_data |>
   ggplot(mapping = aes(x = occurred_year)) +
   geom_bar() +
   theme_minimal() +
   labs(x = "Year", y = "Number of MHA Apprehensions") +
-  scale_x_continuous(breaks = unique(percentage$occurred_year))
+  scale_x_continuous(breaks = unique(mental_health_data$occurred_year))
 ```
+
+\pagebreak
 
 ### Relationship between Sex and Mental Health
 
 In this section, the relationship between sex and the number of MHA apprehensions will be analyzed.
 
-Table @tbl-sum_occurences_sex shows the number of male and female MHA apprehensions in Toronto from 2014 to 2023. It can be observed that the percentage of male MHA apprehension is generally higher than the female MHA apprehensions.
+@tbl-sum_occurences_sex shows the number of male and female MHA apprehensions in Toronto from 2014 to 2023. It can be observed that the percentage of male MHA apprehension is generally higher than the female MHA apprehensions.
 
-Figure @fig-percentage is used to make it easier to see the trend between the year and the number of MHA apprehensions in different sex. As depecited in Figure @fig-percentage, it can be clearly observed that the number of male MHA apprehensions consistently surpasses that of female MHA apprehensions across the years 2014 to 2023. Futhermore, an observation can be made that in the year of 2020, the male MHA apprehension attained the highest number, while in the year of 2015, the female MHA apprehension attained the highest number across 2014 to 2023. There is also a decrease in the number of MHA apprehensions in both sexes in 2017 compared to 2015 and 2016. It is also worth noting that in the year of 2020, while the number of male MHA apprehensions reaches its peak, the number of female MHA apprehensions is at its lowest. Also, in 2015, the reverse happens: while the number of female MHA apprehensions reaches its peak, the number of male MHA apprehensions is at its lowest. This phenomenon is something worth analyzing in depth, and can be better understood by researching.
+The scatter plot @fig-percentage is used to make it easier to see the trend between the year and the number of MHA apprehensions in different sex. As depecited in @fig-percentage, it can be clearly observed that the number of male MHA apprehensions consistently surpasses that of female MHA apprehensions across the years 2014 to 2023. Futhermore, an observation can be made that in the year of 2020, the male MHA apprehension attained the highest number, while in the year of 2015, the female MHA apprehension attained the highest number across 2014 to 2023. There is also a decrease in the number of MHA apprehensions in both sexes in 2017 compared to 2015 and 2016. It is also worth noting that in the year of 2020, while the number of male MHA apprehensions reaches its peak, the number of female MHA apprehensions is at its lowest. Also, in 2015, the reverse happens: while the number of female MHA apprehensions reaches its peak, the number of male MHA apprehensions is at its lowest. This phenomenon is something worth analyzing in depth, and can be better understood by researching.
 
 ```{r}
-#| echo: false
-#| message: false
+#| echo: FALSE
+#| message: FALSE
 #| label: tbl-sum_occurences_sex
+#| tbl-cap: Percentage of Male and Female MHA apprehensions in each year
 
 # calculate the percentage of male and female MHA apprehensions in total
 percentage <- mental_health_data %>%
@@ -137,38 +138,47 @@ percentage <- mental_health_data %>%
   group_by(occurred_year) %>%
   mutate(percentage = count / sum(count) * 100)
 
-table_output <- kable(percentage, caption = "Percentage of Male and Female MHA apprehensions from 2014 to 2023")
+table_output <- kable(percentage, align = c("c", "c", "c", "c"))
 table_output
 ```
 
 ```{r}
-#| echo: false
-#| message: false
-#| label: fig_percentage
+#| echo: FALSE
+#| message: FALSE
+#| label: fig-percentage
+#| fig-cap: Percentage of male and female MHA apprehension percentage from 2014 to 2023
+# draw a scatter plot for the percentage of male and female in each year
+percentage <- mental_health_data %>%
+  group_by(occurred_year, sex) %>%
+  summarise(count = n()) %>%
+  group_by(occurred_year) %>%
+  mutate(percentage = count / sum(count) * 100)
 
 percentage |>
   ggplot(mapping = aes(x = occurred_year, y = percentage, color = sex)) +
   geom_line() +
   geom_point() +
-  labs(title = "Percentage of Male and Female Instances by Year",
+  labs(
        x = "Year",
        y = "Percentage") +
   theme_minimal()+
-  scale_x_continuous(breaks = unique(percentage$occurred_year))
+  scale_x_continuous(breaks = unique(mental_health_data$occurred_year))
 
 ```
+
+\pagebreak
 
 ### Relationship between Age and Mental Health
 
 In this section, the relationship between age and the number of MHA apprehensions will be analyzed.
 
-Table @tbl-sum_occurences and Figure @fig-age_year displays the total occurrences of MHA apprehensions in different age groups in Toronto from 2014 to 2023. It can be observed that the age group "25 to 34" has the highest number of MHA apprehensions. Then the number of MHA apprehensions gradually decreases as the age group becomes older. Age group "18 to 24" and age group "35 to 44" have similar number of MHA apprehensions, which only differs by 333 occurrences.
+@tbl-sum_occurences and @fig-age_year displays the total occurrences of MHA apprehensions in different age groups in Toronto from 2014 to 2023. It can be observed that the age group "25 to 34" has the highest number of MHA apprehensions. Then the number of MHA apprehensions gradually decreases as the age group becomes older. Age group "18 to 24" and age group "35 to 44" have similar number of MHA apprehensions, which only differs by 333 occurrences.
 
-Figure @fig-age_year_each illustrates the relationship between the age group and the number of MHA apprehension in each year more clearly. It can be observed that the number of MHA apprehensions in age group "25 to 34" is always at the highest compared to in other age groups. Also, age group "65+" always has the lowest number of MHA apprehensions. For age group "18 to 24", "25 to 34", "35 to 44" and "45 to 54", the number of MHA apprehensions increases from 2014 to 2021, reaching its peak at 2021, and then gradually decreases from 2021 to 2023. For age group "65+", the number of MHA apprehensions has a consistent increasing trend from 2014 to 2023.
+@fig-age_year_each illustrates the relationship between the age group and the number of MHA apprehension in each year more clearly. It can be observed that the number of MHA apprehensions in age group "25 to 34" is always at the highest compared to in other age groups. Also, age group "65+" always has the lowest number of MHA apprehensions. For age group "18 to 24", "25 to 34", "35 to 44" and "45 to 54", the number of MHA apprehensions increases from 2014 to 2021, reaching its peak at 2021, and then gradually decreases from 2021 to 2023. For age group "65+", the number of MHA apprehensions has a consistent increasing trend from 2014 to 2023.
 
 ```{r}
-#| echo: false
-#| message: false
+#| echo: FALSE
+#| message: FALSE
 #| label: tbl-sum_occurences
 #| tbl-cap: Total number of MHA apprenhension in age groups in Toronto from 2014 - 2023
 
@@ -183,12 +193,11 @@ mental_health_data |>
 ```
 
 ```{r}
-# Analyze the relationship between MHA apprehension and age groups in total
-#| echo: false
-#| message: false
+#| echo: FALSE
+#| message: FALSE
 #| label: fig-age_year
 #| fig-cap: Total number of MHA apprenhension in age groups
-
+# Analyze the relationship between MHA apprehension and age groups in total
 mental_health_data |> 
   count(age_group) |> 
   ggplot(mapping = aes(x = age_group, y = n)) +
@@ -198,12 +207,11 @@ mental_health_data |>
 ```
 
 ```{r}
-# Analyze the relationship between MHA apprehension and age groups in each year
-#| echo: false
-#| message: false
+#| echo: FALSE
+#| message: FALSE
 #| label: fig-age_year_each
 #| fig-cap: Number of MHA apprenhension in age groups in each year
-
+# Analyze the relationship between MHA apprehension and age groups in each year
 mental_health_data |>
   ggplot(mapping = aes(x = occurred_year, fill = age_group)) +
   geom_bar(position = "dodge2") +
@@ -212,19 +220,21 @@ mental_health_data |>
   scale_x_continuous(breaks = unique(percentage$occurred_year))
 ```
 
+\pagebreak
+
 ### Relationship between Premises Type and Mental Health
 
 In this section, the relationship between premises type and the number of MHA apprehensions will be analyzed.
 
-As illustrated in Figure @fig-premise_type, the distribution of the number of MHA apprehensions across various premise types is presented as percentages. It can be seen that "Apartment" emerges as the predominant category in premise types. In total, 40.9% of MHA apprehension of individuals live in "Apartment". MHA apprehensions of individuals living in "House" has the second largest percentage (17.8%) compared to others. The number of MHA apprehensions of individuals living in "Outside" and "Other" are approximately the same, which are 16.4% and 16.7% respectively. The remaining 8.2% includes individuals living in "Commercial", "Transit", "Educational" buildings, which do not have significant effects in the context of MHA apprehensions.
+As illustrated in @fig-premise_type, the distribution of the number of MHA apprehensions across various premise types is presented as percentages. It can be seen that "Apartment" emerges as the predominant category in premise types. In total, 40.9% of MHA apprehension of individuals live in "Apartment". MHA apprehensions of individuals living in "House" has the second largest percentage (17.8%) compared to others. The number of MHA apprehensions of individuals living in "Outside" and "Other" are approximately the same, which are 16.4% and 16.7% respectively. The remaining 8.2% includes individuals living in "Commercial", "Transit", "Educational" buildings, which do not have significant effects in the context of MHA apprehensions.
 
 ```{r}
-# Analyze the relationship between MHA apprehension and premises type
-#| echo: false
-#| message: false
+#| echo: FALSE
+#| message: FALSE
 #| label: fig-premise_type
 #| fig-cap: Percentage of MHA apprehensions by premises type
 
+# Analyze the relationship between MHA apprehension and premises type
 mental_health_data |>
   count(premises_type) |>
   ggplot(mapping = aes(x="",y = n, fill = premises_type)) +
@@ -236,6 +246,6 @@ mental_health_data |>
             position = position_stack(vjust = 0.5), color = "white", size = 3)
 ```
 
-## 
+\pagebreak
 
-## 
+## Reference
