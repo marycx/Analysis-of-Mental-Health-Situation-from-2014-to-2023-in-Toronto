@@ -63,7 +63,7 @@ This section presents an overview of the dataset following the selection of rele
 
 @tbl-sampledata provides some sample data entries in the refined dataset. It can be observed that the post-processing data comprises four columns: "Occurred Year," "Sex," "Age Group," and "Premises Type."
 
-The visualization in @fig-total and @tbl-sum_occurences_new illustrates a gradual rise in the occurrences of MHA apprehensions from 2014 to 2021, peaking in 2021. Moreover, a slight decrease is observed from 2021 to 2023.
+The visualization in @fig-total and @tbl-sum_occurences_new illustrates a gradual rise in the occurrences of MHA apprehensions from 2014 to 2021, peaking in 2021 (13219 occurrences). Moreover, a slight decrease is observed from 2021 to 2023.
 
 ```{r}
 #| echo: FALSE
@@ -100,7 +100,7 @@ mental_health_data |>
   )
 ```
 
-```{r}
+```{r out.width="65%", fig.align='center'}
 #| echo: FALSE
 #| message: FALSE
 #| label: fig-total
@@ -123,9 +123,11 @@ In this section, the relationship between sex and the number of MHA apprehension
 
 @tbl-sum_occurences_sex shows the number of male and female MHA apprehensions in Toronto from 2014 to 2023. It can be observed that the percentage of male MHA apprehension is generally higher than the female MHA apprehensions.
 
-The scatter plot @fig-percentage is used to make it easier to see the trend between the year and the number of MHA apprehensions in different sex. As depecited in @fig-percentage, it can be clearly observed that the number of male MHA apprehensions consistently surpasses that of female MHA apprehensions across the years 2014 to 2023. Futhermore, an observation can be made that in the year of 2020, the male MHA apprehension attained the highest number, while in the year of 2015, the female MHA apprehension attained the highest number across 2014 to 2023. There is also a decrease in the number of MHA apprehensions in both sexes in 2017 compared to 2015 and 2016. It is also worth noting that in the year of 2020, while the number of male MHA apprehensions reaches its peak, the number of female MHA apprehensions is at its lowest. Also, in 2015, the reverse happens: while the number of female MHA apprehensions reaches its peak, the number of male MHA apprehensions is at its lowest. This phenomenon is something worth analyzing in depth, and can be better understood by researching.
+The scatter plot @fig-percentage is used to make it easier to see the trend between the year and the number of MHA apprehensions in different sex. As depecited in @fig-percentage, it can be clearly observed that the number of male MHA apprehensions consistently surpasses that of female MHA apprehensions across the years 2014 to 2023. Futhermore, an observation can be made that in the year of 2020, the male MHA apprehension attained the highest percentage (58.55%), while in the year of 2015, the female MHA apprehension attained the highest percentage (44.26%) across 2014 to 2023. There is also a decrease in the number of MHA apprehensions in both sexes in 2017 compared to 2015 and 2016. It is also worth noting that in the year of 2020, while the number of male MHA apprehensions reaches its peak, the number of female MHA apprehensions is at its lowest (differs by 17.1%). Also, in 2015, the reverse happens: while the number of female MHA apprehensions reaches its peak, the number of male MHA apprehensions is at its lowest (differs by 11.48%). This phenomenon is something worth analyzing in depth, and can be better understood by researching.
 
-```{r}
+Overall, it can be concluded that males have a higher number of MHA apprehensions that females.
+
+```{r tbl.}
 #| echo: FALSE
 #| message: FALSE
 #| label: tbl-sum_occurences_sex
@@ -136,23 +138,18 @@ percentage <- mental_health_data %>%
   group_by(occurred_year, sex) %>%
   summarise(count = n()) %>%
   group_by(occurred_year) %>%
-  mutate(percentage = count / sum(count) * 100)
+  mutate(percentage = format(round((count / sum(count) * 100),2), nsmall = 2))
 
 table_output <- kable(percentage, align = c("c", "c", "c", "c"))
 table_output
 ```
 
-```{r}
+```{r out.width="70%", fig.align='center'}
 #| echo: FALSE
 #| message: FALSE
 #| label: fig-percentage
 #| fig-cap: Percentage of male and female MHA apprehension percentage from 2014 to 2023
 # draw a scatter plot for the percentage of male and female in each year
-percentage <- mental_health_data %>%
-  group_by(occurred_year, sex) %>%
-  summarise(count = n()) %>%
-  group_by(occurred_year) %>%
-  mutate(percentage = count / sum(count) * 100)
 
 percentage |>
   ggplot(mapping = aes(x = occurred_year, y = percentage, color = sex)) +
@@ -172,9 +169,11 @@ percentage |>
 
 In this section, the relationship between age and the number of MHA apprehensions will be analyzed.
 
-@tbl-sum_occurences and @fig-age_year displays the total occurrences of MHA apprehensions in different age groups in Toronto from 2014 to 2023. It can be observed that the age group "25 to 34" has the highest number of MHA apprehensions. Then the number of MHA apprehensions gradually decreases as the age group becomes older. Age group "18 to 24" and age group "35 to 44" have similar number of MHA apprehensions, which only differs by 333 occurrences.
+@tbl-sum_occurences and @fig-age_year displays the total occurrences of MHA apprehensions in different age groups in Toronto from 2014 to 2023. It can be observed that the age group "25 to 34" has the highest number of MHA apprehensions (30186 occurrences). Then the number of MHA apprehensions gradually decreases as the age group becomes older. Age group "18 to 24" and age group "35 to 44" have similar number of MHA apprehensions, which only differs by 333 occurrences.
 
 @fig-age_year_each illustrates the relationship between the age group and the number of MHA apprehension in each year more clearly. It can be observed that the number of MHA apprehensions in age group "25 to 34" is always at the highest compared to in other age groups. Also, age group "65+" always has the lowest number of MHA apprehensions. For age group "18 to 24", "25 to 34", "35 to 44" and "45 to 54", the number of MHA apprehensions increases from 2014 to 2021, reaching its peak at 2021, and then gradually decreases from 2021 to 2023. For age group "65+", the number of MHA apprehensions has a consistent increasing trend from 2014 to 2023.
+
+Overall, it can be implied that individuals in age group "25 to 34" have the highest number of MHA apprehensions compared to other age groups.
 
 ```{r}
 #| echo: FALSE
@@ -192,7 +191,7 @@ mental_health_data |>
   )
 ```
 
-```{r}
+```{r out.width="70%", fig.align='center'}
 #| echo: FALSE
 #| message: FALSE
 #| label: fig-age_year
@@ -206,7 +205,7 @@ mental_health_data |>
   labs(x = "Age group", y = "Number of MHA apprenhensions")
 ```
 
-```{r}
+```{r out.width="70%", fig.align='center'}
 #| echo: FALSE
 #| message: FALSE
 #| label: fig-age_year_each
@@ -227,6 +226,8 @@ mental_health_data |>
 In this section, the relationship between premises type and the number of MHA apprehensions will be analyzed.
 
 As illustrated in @fig-premise_type, the distribution of the number of MHA apprehensions across various premise types is presented as percentages. It can be seen that "Apartment" emerges as the predominant category in premise types. In total, 40.9% of MHA apprehension of individuals live in "Apartment". MHA apprehensions of individuals living in "House" has the second largest percentage (17.8%) compared to others. The number of MHA apprehensions of individuals living in "Outside" and "Other" are approximately the same, which are 16.4% and 16.7% respectively. The remaining 8.2% includes individuals living in "Commercial", "Transit", "Educational" buildings, which do not have significant effects in the context of MHA apprehensions.
+
+Overall, a conclusion can be reached that individuals living in "Apartment" have the highest occurrences of MHA apprehension.
 
 ```{r}
 #| echo: FALSE
