@@ -49,14 +49,14 @@ Data is cleaned and analyzed using open-source statistically programming languag
 
 ### Data Pre-processing
 
-Raw data downloaded from City of Toronto's open data includes 25 data features (see @tbl-raw for each data feature and its content), many of which are not important in this analysis. Therefore, this report will not explain each of the data feature; details can be found [@citeMentalData]. The raw dataset includes 105821 data entries. Some data cleaning is performed. First, relevant data features are selected for analysis (occurred year, sex, age group, and premise types). Then data is cleaned by renaming the variables, so that their names are obvious. The variable names are as follows:
+Raw data downloaded from City of Toronto's open data includes 25 data features (see @tbl-raw for each data feature and its content), many of which are not important in this analysis. Therefore, this report will not explain each of the data feature; details can be found [@citeMentalData]. The raw dataset includes 105821 data entries. Some data cleaning is performed. First, relevant data features are selected for analysis (OCC_YEAR: occurred year, SEX: sex, AGE_COHORT: age group, and PREMISES_TYPE: premise types). Then data is cleaned by renaming the variables, so that their names are obvious. The variable names are as follows:
 
 1.  occurred_year: the year that the MHA apprehension occurred.
 2.  sex: sex of the person apprehended
 3.  age_group: age category of the person apprehended
 4.  premises_type: the premise that the person lives in
 
-Moreover, there are certain entries containing the value "Not Recorded," which are removed to ensure the reliability and accuracy of the dataset. After data pre-processing, there are 104530 data entries, each with 4 features described above. A Data overview is provided in the next section to further display the data.
+Moreover, there are certain entries containing the value "Not Recorded," which are removed to ensure the reliability and accuracy of the dataset. After data pre-processing, there are 104530 data entries, each with 4 features described above. A data overview is provided in the next section to further display the data.
 
 ### Data Overview
 
@@ -192,6 +192,8 @@ percentage |>
 
 ```
 
+\pagebreak
+
 ### Relationship between Age and Mental Health
 
 In this section, the relationship between age and the number of MHA apprehensions will be analyzed.
@@ -246,7 +248,7 @@ Overall, a conclusion can be reached that individuals living in "Apartment" have
 #| echo: FALSE
 #| message: FALSE
 #| label: fig-premise_type
-#| fig-cap: Percentage of MHA apprehensions by premises type
+#| fig-cap: Percentage of MHA apprehensions by premise types
 
 # Analyze the relationship between MHA apprehension and premises type
 mental_health_data |>
