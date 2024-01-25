@@ -4,19 +4,19 @@ author: "Mary Cheng"
 thanks: "Code and data are avaliable at:https://github.com/marycx/Analysis-of-Mental-Health-Situation-from-2014-to-2023-in-Toronto.git"
 date: today
 date-format: long
-abstract: "In today's society, acknowledging the importance of mental health and the growing awareness surrounding it has increased more and more. This paper explores the 'Mental Health Act (MHA) Apprehension' data from opendatatoronto. The study analyzes trends in mental health situations and their correlation with those factors. Findings illustrate that number of MHA apprehensions is at its highest in 2021. It also indicates there are higher MHA apprehensions among males. Also, the age group '25 to 34' shows the highest occurrences of MHA apprehensions. Additionally, individuals living in apartments are more likely to face MHA apprehension. The paper provides insights into the relationships among mental health conditions, age, gender, and living arrangements, offering a concise overview of the situation."
+abstract: "In today's society, acknowledging the importance of mental health and the growing awareness surrounding it has increased more and more. This paper explores the 'Mental Health Act (MHA) Apprehension' data from opendatatoronto. The study analyzes trends in mental health situations and their correlation with those factors. Findings illustrate that number of MHA apprehensions is at its highest in 2021. It also indicates there are higher MHA apprehensions among males. The age group '25 to 34' shows the highest occurrences of MHA apprehensions. Additionally, individuals living in apartments are more likely to face MHA apprehension. The paper provides insights into the relationships among mental health conditions, age, gender, and living arrangements, offering a concise overview of the situation."
 format: pdf
 toc: true
 bibliography: references.bib
 ---
 
-## Introduction
+## 1 Introduction
 
 Mental health is an essential aspect of an individual's well-being. It plays a key role in shaping individuals' lives and decisions. Good mental health of the community also has a significant influence on the development and safety of society. [@citesociety] states that approximately 25% of the worldwide population is affected by mental health issues at some point in their life. However, a study has estimated that less than 40 percent of individuals with mental health illnesses have received consistent mental health support and treatment throughout the years in the United States[@citeMHAeffect]. In recent years, there has been a growing recognition of the importance of mental health [@citeLiteracy]; individuals have higher mental health literacy and understanding about the importance and necessity of mental health treatment.
 
 In Ontario, Mental Health Act (MHA)[@citeMHA], which was established in 1967 (current version published in 2015), provides assistance to people with mental health concerns. It governs the involuntary admission and treatment of people with mental health disorders. It aims to provide mental health services and protect individuals' rights. It guarantees the access to care for individuals who may be at risk of harm to themselves or others due to their mental health conditions. All of these upsides that MHA brings strongly help the people in need: this paper[@citeMHAeffect] discusses how MHA helps creating a trend toward an increasing rate of civil commitments in taking the treatment for mental health conditions.
 
-In this paper, we use R[@citeR] to analyze a dataset from opendatatoronto[@citeODT] on the occurrences of MHA apprehension in Toronto from 2014 to 2023[@citeMentalData] in order to get a better idea on the development of mental health situation and what factors are influencing individuals' mental health. This report first looks at the overall trend of mental health situation across 2014 to 2023 after conducting data cleaning and pre-processing. It then attempts to analyze the intricate relationships between mental health conditions and demographic factors such as age, sex, and premise type, using graphs and tables. It is shown that the occurrences of male MHA apprehension are higher than female MHA apprehension in each year between 2014 to 2023. Also, from various age groups, age group "25 to 34" has the highest occurrences of MHA apprehensions compared to other age groups. Moreover, it is found that the number of individuals living in "Apartment" has a higher percentage of getting MHA apprehension compared to people living in other places. However, this may be slightly biased since majority of people in Toronto lives in apartments due to the packed city.
+In this paper, we use R[@citeR] to analyze a dataset from opendatatoronto[@citeODT] on the occurrences of MHA apprehension in Toronto from 2014 to 2023[@citeMentalData] in order to get a better idea on the development of mental health situation and what factors are influencing individuals' mental health. This report first looks at the overall trend of mental health situation across 2014 to 2023 after conducting data cleaning and pre-processing. It then attempts to analyze the intricate relationships between mental health conditions and demographic factors such as age, sex, and premise type, using graphs and tables. It is shown that the occurrences of male MHA apprehension are higher than female MHA apprehension in each year between 2014 to 2023. Also, age group "25 to 34" has the highest occurrences of MHA apprehensions compared to other age groups. Moreover, it is found that the number of individuals living in "Apartment" has a higher percentage of getting MHA apprehension compared to people living in other places. However, this may be slightly biased since majority of people in Toronto lives in apartments due to the packed city.
 
 The remainder of this paper is structured as follows: Section 2 first discusses the data including data pre-processing and data overview, then presents the results, showing the relationships between mental health and demographic factors such as age, sex, and premise type.
 
@@ -41,13 +41,13 @@ mental_health_data = read_csv(
 )
 ```
 
-## Data
+## 2 Data
 
 The data used in this paper has been sourced from the City of Toronto's open data portal [@citeODT]. Specifically, the dataset is named "Mental Health Act Apprehensions," including all Mental Health Act (MHA) Apprehensions pursuant to the Mental Health Act [@citeMentalData]. This report incorporates information related to different gender categories, diverse age groups, and types of premises. The objective is to employ these data for examining the correlations among these variables and the occurrences of MHA apprehensions. One limitation worth noting is that each unique data entry should not be interpreted as the apprehension of a distinct individual, as an individual may be apprehended multiple times. However, this does not impact the analysis because the focus of the report is on the occurrences rather than the unique individuals involved.
 
 Data is cleaned and analyzed using open-source statistically programming language R[@citeR], using packages from tidyverse[@citeTidyverse], dplyr[@citeDplyr], knitr[@citeKnitr], kableExtra[@citeKableExtra], tibble[@citeTibble], and janitor[@citeJanitor].
 
-### Data Pre-processing
+### 2.1 Data Pre-processing
 
 Raw data downloaded from City of Toronto's open data includes 25 data features (see @tbl-raw for each data feature and its content), many of which are not important in this analysis. Therefore, this report will not explain each of the data feature; details can be found [@citeMentalData]. The raw dataset includes 105821 data entries. Some data cleaning is performed. First, relevant data features are selected for analysis (OCC_YEAR: occurred year, SEX: sex, AGE_COHORT: age group, and PREMISES_TYPE: premise types). Then data is cleaned by renaming the variables, so that their names are obvious. The variable names are as follows:
 
@@ -58,13 +58,13 @@ Raw data downloaded from City of Toronto's open data includes 25 data features (
 
 Moreover, there are certain entries containing the value "Not Recorded," which are removed to ensure the reliability and accuracy of the dataset. After data pre-processing, there are 104530 data entries, each with 4 features described above. A data overview is provided in the next section to further display the data.
 
-### Data Overview
+### 2.2 Data Overview
 
 This section presents an overview of the dataset following the selection of relevant variables and the cleaning process.
 
-@tbl-sampledata provides some sample data entries in the refined dataset. It can be observed that the post-processing data comprises four columns: "Occurred Year," "Sex," "Age Group," and "Premises Type."
+@tbl-sampledata provides some sample data entries in the refined dataset. It can be observed that the post-processing data comprises four columns: "Occurred Year," "Sex," "Age Group," and "Premises Type".
 
-@tbl-sum_occurences_new shows the total number of MHA apprehensions across 2014 to 2023. A bar plot is created to better visualize the general trend of the dataset. It can be seen in @fig-total which illustrates a gradual rise in the occurrences of MHA apprehensions from 2014 to 2021, peaking in 2021 (13219 occurrences). Moreover, a slight decrease is observed from 2021 to 2023. Some implications can be inferred from this trend. The reason why 2021 has the most cases of MHA apprehensions might be due to COVID-19 pandemic which was prevailing at that time. COVID-19 brought multifaceted challenges to people, for example, the economic uncertainty, lose of loved ones, prolonged social isolation, and so on. To some extent, these challenges all contributed to the increasing number of mental health problems.
+@tbl-sum_occurences_new shows the total number of MHA apprehensions across 2014 to 2023. A bar plot is created to better visualize the general trend of the dataset. It can be seen in @fig-total which illustrates a gradual rise in the occurrences of MHA apprehensions from 2014 to 2021, peaking in 2021 (13219 occurrences). Moreover, a slight decrease is observed from 2021 to 2023. Some implications can be inferred from this trend. The reason why 2021 has the most cases of MHA apprehensions might be due to COVID-19 pandemic which was prevailing at that time. COVID-19 brought multifaceted challenges to people, for example, the economic uncertainty, lose of loved ones, prolonged social isolation, and so on. To some extent, these challenges all contributed to the increasing number of mental health problems [@citecovid].
 
 ```{r}
 #| message: FALSE
@@ -146,7 +146,7 @@ mental_health_data |>
 
 \pagebreak
 
-### Relationship between Sex and Mental Health
+### 2.3 Relationship between Sex and Mental Health
 
 In this section, the relationship between sex and the number of MHA apprehensions will be analyzed.
 
@@ -194,13 +194,13 @@ percentage |>
 
 \pagebreak
 
-### Relationship between Age and Mental Health
+### 2.4 Relationship between Age and Mental Health
 
 In this section, the relationship between age and the number of MHA apprehensions will be analyzed.
 
 @tbl-sum_occurences displays the total occurrences of MHA apprehensions in different age groups in Toronto from 2014 to 2023. It can be observed that the age group "25 to 34" has the highest number of MHA apprehensions (30186 occurrences). Then the number of MHA apprehensions gradually decreases as the age group becomes older. Age group "18 to 24" and age group "35 to 44" have similar number of MHA apprehensions, which only differs by 333 occurrences.
 
-@fig-age_year_each illustrates the relationship between the age group and the number of MHA apprehension in each year more clearly. It can be observed that the number of MHA apprehensions in age group "25 to 34" is always at the highest compared to in other age groups. Also, age group "65+" always has the lowest number of MHA apprehensions. For age group "18 to 24", "25 to 34", "35 to 44" and "45 to 54", the number of MHA apprehensions increases from 2014 to 2021, reaching its peak at 2021, and then gradually decreases from 2021 to 2023. For age group "65+", the number of MHA apprehensions has a consistent increasing trend from 2014 to 2023.
+@fig-age_year_each illustrates the relationship between the age group and the number of MHA apprehension in each year more clearly. It can be observed that the number of MHA apprehensions in age group "25 to 34" is always at the highest compared to in other age groups. This is possibly due to various societal and economic pressure for people in this age group. Also, age group "65+" always has the lowest number of MHA apprehensions. For age group "18 to 24", "25 to 34", "35 to 44" and "45 to 54", the number of MHA apprehensions increases from 2014 to 2021, reaching its peak at 2021, and then gradually decreases from 2021 to 2023. For age group "65+", the number of MHA apprehensions has a consistent increasing trend from 2014 to 2023.
 
 Overall, it can be implied that individuals in age group "25 to 34" have the highest number of MHA apprehensions compared to other age groups.
 
@@ -236,11 +236,11 @@ mental_health_data |>
 
 \pagebreak
 
-### Relationship between Premise Types and Mental Health
+### 2.4 Relationship between Premise Types and Mental Health
 
 In this section, the relationship between premises type and the number of MHA apprehensions will be analyzed.
 
-As illustrated in @fig-premise_type, the distribution of the number of MHA apprehensions across various premise types is presented as percentages. It can be seen that "Apartment" emerges as the predominant category in premise types. In total, 40.9% of MHA apprehension of individuals live in "Apartment". MHA apprehensions of individuals living in "House" has the second largest percentage (17.8%) compared to others. The number of MHA apprehensions of individuals living in "Outside" and "Other" are approximately the same, which are 16.4% and 16.7% respectively. The remaining 8.2% includes individuals living in "Commercial", "Transit", "Educational" buildings, which do not have significant effects in the context of MHA apprehensions.
+As illustrated in @fig-premise_type, the distribution of the number of MHA apprehensions across various premise types is presented as percentages. It can be seen that "Apartment" emerges as the predominant category in premise types. In total, 40.9% of MHA apprehension of individuals live in "Apartment". This might be due to the fact that many people are renting apartments alone or still stranger. Therefore, they have very few people to talk to if they do not feel mentally well. MHA apprehensions of individuals living in "House" has the second largest percentage (17.8%) compared to others. The number of MHA apprehensions of individuals living in "Outside" and "Other" are approximately the same, which are 16.4% and 16.7% respectively. The remaining 8.2% includes individuals living in "Commercial", "Transit", "Educational" buildings, which do not have significant effects in the context of mental health situation analysis.
 
 Overall, a conclusion can be reached that individuals living in "Apartment" have the highest occurrences of MHA apprehension.
 
@@ -264,4 +264,4 @@ mental_health_data |>
 
 \newpage
 
-## Reference
+## 3 Reference
