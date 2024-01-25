@@ -8,4 +8,7 @@ The repository is organized as follows:
 3. outputs: contains a rmd file with R code, a pdf of the paper, and a bibliogrpahy file for references.
 
 # Reproduce Report Steps
-1. Run '''/scripts/01-download_data.R'''
+1. Run /scripts/01-download_data.R to get raw data.
+2. Run /scripts/02-clean_data.R to get the cleaned data.
+3. Run /scripts/03-test_data.R to test data.
+4. Run /outputs/paper/paper.qmd to generate the report.
